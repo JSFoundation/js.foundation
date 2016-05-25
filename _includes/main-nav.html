@@ -1,0 +1,11 @@
+{% capture current %}{% if page.type != "conduct" %}current{% endif %}{% endcapture %}
+{% capture p %}{% if page.type == "home" %}#{% else %}/#{% endif %}{% endcapture %}
+{% capture c %}{% if page.type == "conduct" %}#conduct-000-intro{% else %}/conduct/{% endif %}{% endcapture %}
+<nav class="{{current}}"><ul>
+{% for node in site.home %}
+  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+  <li class="p-home-{{id}}"><a href="{{p}}home-{{id}}">{{node.title}}</a></li>
+{% endfor %}
+<!-- Conduct Link -->
+<li class="p-conduct-000-intro"><a href="{{c}}">conduct</a></li>
+</ul></nav>

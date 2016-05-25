@@ -1,0 +1,46 @@
+---
+title: "mission"
+bg: grey
+color: black
+---
+<div id="ad" class="center"></div>
+<br>
+
+# Mission and Vision
+
+{: .left}
+## Vision Statement
+
+A world in which all web content is built on open standards and is accessible to all users.
+
+{: .left}
+## Mission Statement
+
+To improve the open web, making it accessible for everyone, through the development and support of open source software, and collaboration with the development community.
+
+{: .left}
+### An open web
+
+We believe that open standards are important for the future of the web. Open standards are publicly available and free to implement without ever having to worry about royalties.
+
+Foundation projects encourage adoption of open standards and implement tools to help developers apply those standards.
+
+You can read more about the [Open Web Platform][] as defined by the W3C or Tantek Çelik’s definition of the [Open Web][].
+
+{: .left}
+### An accessible web
+
+We believe that everyone should be able to access the vast content available on the web. This includes anyone with physical, mental, cognitive, or technological disabilities that make it more difficult to use the Internet. Content should be usable by people with poor network connections, slow or old devices, and assistive technologies.
+
+Foundation projects emphasize the importance of an accessible web to developers to facilitate the creation of accessible content and applications.
+
+{: .left}
+### Collaboration with the development community
+
+* Working with standards bodies, such as W3C, WHATWG, and TC39, to build the open standards that browser vendors and developers rely on.
+* Working with individuals and organizations to implement libraries, frameworks and tools for web developers.
+* Building, maintaining and documenting our own JavaScript projects, to help developers build accessible web content.
+* Sharing the knowledge about all of the above, by organizing events, recommending good practices in our documentation, and supporting our online communities, through forums, IRC and GitHub.
+
+[Open Web Platform]: http://www.w3.org/wiki/Open_Web_Platform
+[Open Web]: http://tantek.com/2010/281/b1/what-is-the-open-web

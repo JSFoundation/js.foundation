@@ -4,36 +4,50 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
+### collections ###
+collections:
+  home:
+    permalink: /
+  conduct:
+    permalink: /conduct/
+  bylaws:
+    permalink: /bylaws/
+  license:
+    permalink: /license/
+  mission:
+    permalink: /mission/
+  trademark:
+    permalink: /trademark/
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
+exclude: [CNAME, README.md, .git]
 timezone: null
 lsi: false
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+title:       "The jQuery Foundation"
+keywords:    "jQuery, Foundation, open source, JavaScript"
+description: "The jQuery Foundation is a member supported non-profit trade association for web developers."
+source_link: "https://github.com/jquery-foundation/jquery.org"
+favicon:     ""
+touch_icon:  ""
+google_analytics_key: "UA-1076265-4" ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     '#111111'
+  black:     '#333333'
+  grey:      '#dddddd'
   white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
+  blue-1:    '#0769ad'
+  green:     '#3eb249'
+  purple:    '#390f39'
+  orange:    '#faa523'
+  blue-2:    '#7acef4'
+  red:       '#9a1b1e'
 
 kramdown:
   auto_ids:  false
-

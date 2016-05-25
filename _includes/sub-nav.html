@@ -1,0 +1,6 @@
+<nav class="subnav current"><ul>
+{% for subnode in site[page.type] %}
+  {% capture subid %}{{ subnode.id | remove:'/' | downcase }}{% endcapture %}
+  <li class="p-{{page.type}}-{{subid}}"><a href="#{{page.type}}-{{subid}}">{{subnode.title}}</a></li>
+{% endfor %}
+</ul></nav>

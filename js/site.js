@@ -1,4 +1,3 @@
-
 $.extend($.easing,
 {
     def: 'easeOutQuad',
@@ -27,16 +26,20 @@ $.extend($.easing,
 
         //attatch click listeners
     	navItems.on('click', function(event){
-    		event.preventDefault();
-            var navID = $(this).attr("href").substring(1);
-            disableScrollFn = true;
-            activateNav(navID);
-            populateDestinations(); //recalculate these!
-        	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
-                settings.scrollSpeed, "easeInOutExpo", function(){
-                    disableScrollFn = false;
-                }
-            );
+            var $this = $(this)[0];
+            if($this.pathname == document.location.pathname && $this.hash.substr(0,1) === "#") {
+                console.log($this.pathname);
+        		event.preventDefault();
+                var navID = $(this).attr("href").substring(1);
+                disableScrollFn = true;
+                activateNav(navID);
+                populateDestinations(); //recalculate these!
+            	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
+                    settings.scrollSpeed, "easeInOutExpo", function(){
+                        disableScrollFn = false;
+                    }
+                );
+            }
     	});
 
         //populate lookup of clicable elements and destination sections
@@ -57,9 +60,13 @@ $.extend($.easing,
 
     function populateDestinations() {
         navItems.each(function(){
-            var scrollID = $(this).attr('href').substring(1);
-            navs[scrollID] = (settings.activateParentNode)? this.parentNode : this;
-            sections[scrollID] = $(document.getElementById(scrollID)).offset().top;
+            var href = $(this).attr('href');
+            if(href.substr(0,1) === "#") {
+                var scrollID = $(this).attr('href').substring(1);
+                var elem = document.getElementById(scrollID);
+                navs[scrollID] = (settings.activateParentNode)? this.parentNode : this;
+                sections[scrollID] = elem ? $(elem).offset().top : 0;
+            }
         });
     }
 
@@ -72,7 +79,7 @@ $.extend($.easing,
 
 $(document).ready(function (){
 
-    $('nav li a').navScroller();
+    $('nav.current li a').navScroller();
 
     //section divider icon click gently scrolls to reveal the section
 	$(".sectiondivider").on('click', function(event) {
@@ -91,5 +98,11 @@ $(document).ready(function (){
         }
 	});
 
+    // Fix offset for direct links
+    var hash = document.location.hash;
+    if(hash.length) {
+        window.requestAnimationFrame(function() {
+            $(hash + " .fa-circle").click();
+        });
+    }
 });
-
