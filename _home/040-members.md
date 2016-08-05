@@ -32,9 +32,9 @@ As a non-profit organization, the jQuery Foundation relies heavily on its member
 ![Mozilla Logo][Mozilla]
 
 [membership@jquery.org]: mailto:membership@jquery.org
-[IBM]: /img/members/ibm.png
-[MaxCDN]: /img/members/maxcdn.png
-[Adobe]:/img/members/adobe.png
-[Adzerk]: /img/members/adzerk.png
-[BrowserStack]: /img/members/browserstack.png
-[Mozilla]: /img/members/mozilla.png
+[IBM]: {{ site.baseurl }}img/members/ibm.png
+[MaxCDN]: {{ site.baseurl }}img/members/maxcdn.png
+[Adobe]: {{ site.baseurl }}img/members/adobe.png
+[Adzerk]: {{ site.baseurl }}img/members/adzerk.png
+[BrowserStack]: {{ site.baseurl }}img/members/browserstack.png
+[Mozilla]: {{ site.baseurl }}img/members/mozilla.png
