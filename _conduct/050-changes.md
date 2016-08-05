@@ -1,6 +1,6 @@
 ---
 title: "changes"
-bg: blue-1
+bg: aqua-2
 color: white
 fa-icon: list-alt
 ---

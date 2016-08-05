@@ -1,6 +1,6 @@
 ---
 title: "reporting"
-bg: grey
+bg: white
 color: black
 fa-icon: envelope-o
 ---

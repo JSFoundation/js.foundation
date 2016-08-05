@@ -1,7 +1,7 @@
 ---
 title: "governance"
-bg: green
-color: white
+bg: orange
+color: black
 fa-icon: sitemap
 ---
 
@@ -46,10 +46,6 @@ The Board of Directors (BoD) serves as the business guiding branch of governance
 <div class="columned-wrap center governance">
 	<img src="https://secure.gravatar.com/avatar/a123410cfb9ea6510294a295bb548530?size=120" alt="">
 	<h3>Mike Sherov</h3>
-</div>
-<div class="columned-wrap center governance">
-	<img src="https://secure.gravatar.com/avatar/d5703fbc1123f0f2f61d90e2f72a1651?size=120" alt="">
-	<h3>Adam Sontag</h3>
 </div>
 <div class="columned-wrap center governance">
 	<img src="https://secure.gravatar.com/avatar/b3e04a46e85ad3e165d66f5d927eb609?size=120" alt="">

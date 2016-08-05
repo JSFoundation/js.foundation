@@ -1,7 +1,7 @@
 ---
 title: "donate"
-bg: orange
-color: black
+bg: aqua
+color: white
 fa-icon: battery-three-quarters
 ---
 
@@ -69,7 +69,7 @@ The jQuery Project is financed entirely by donations and contributions from the 
     <div class="half column center">
         <h2>Donate via Square Cash</h2>
         <div class="donate-link">
-        	<h4><a href="https://cash.me/$jQuery" target="_blank" style="color: green; font-weight: bold;">cash.me/$jQuery</a></h4>
+        	<h4><a href="https://cash.me/$jQuery" target="_blank">cash.me/$jQuery</a></h4>
         </div>
     </div>
 </div>
