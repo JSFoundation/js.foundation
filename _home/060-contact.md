@@ -1,6 +1,6 @@
 ---
 title: "contact"
-bg: blue-1
+bg: aqua-2
 color: white
 fa-icon: envelope
 style: center

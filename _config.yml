@@ -41,13 +41,29 @@ google_analytics_key: "UA-1076265-4" ## put YOUR key here to enable tracking! (b
 colors:
   black:     '#333333'
   grey:      '#dddddd'
+  grey-2:    '#c1d8eB'
+  grey-3:    '#41586B'
   white:     '#f8f8f8'
   blue-1:    '#0769ad'
+  blue-1-e:  '#595959'
   green:     '#3eb249'
-  purple:    '#390f39'
+  green-2:   '#108040'
+  purple:    '#9C3493'
+  purple-2:  '#390f39'
   orange:    '#faa523'
   blue-2:    '#7acef4'
   red:       '#9a1b1e'
+  aqua:      '#009B93'
+  aqua-2:    '#41586B'
+  blue-1-light: '#cee9fd'
+  blue-2-light: '#d0edfb'
+  green-2-light: '#d2f9e3'
+  purple-2-light: '#f4d7f4'
+  orange-light: '#feeacd'
+  aqua-light: '#ccfffc'
+  aqua-2-light: '#dfe6ec'
+  
+
 
 kramdown:
   auto_ids:  false

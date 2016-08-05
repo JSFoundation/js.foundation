@@ -1,6 +1,6 @@
 ---
 title: "members"
-bg: grey
+bg: white
 color: black
 fa-icon: heartbeat
 ---
