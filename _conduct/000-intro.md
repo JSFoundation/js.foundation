@@ -1,6 +1,6 @@
 ---
 title: "home"
-bg: purple
+bg: purple-2
 color: white
 ---
 

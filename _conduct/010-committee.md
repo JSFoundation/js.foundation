@@ -1,7 +1,7 @@
 ---
 title: "committee"
-bg: blue-2
-color: black
+bg: blue-1
+color: white
 fa-icon: users
 ---
 
