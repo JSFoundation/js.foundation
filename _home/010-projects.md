@@ -67,7 +67,7 @@ fa-icon: code
 		<div class="half column projects">
 			<h3>Jed</h3>
 			<img src="/img/projects/jed.png" alt="">
-			<p>https://slexaxton.github.io/Jed/ is a collection of interoperable tools to help facilitate the full process of internationalizing applications in JavaScript.</p>
+			<p>Jed is a collection of interoperable tools to help facilitate the full process of internationalizing applications in JavaScript.</p>
 		</div>
 	</a>
 </div>
