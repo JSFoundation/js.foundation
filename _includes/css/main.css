@@ -204,7 +204,7 @@ nav ul li:hover, nav ul li.active {
   width:100%;
   min-height:300px;
   padding:200px 0;
-  background:url({{ site.baseurl }}../img/bgnoise.png);
+  background:url(../img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
 

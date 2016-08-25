@@ -9,15 +9,15 @@ collections:
   home:
     permalink: /
   conduct:
-    permalink: /conduct/
+    permalink: /conduct
   bylaws:
-    permalink: /bylaws/
+    permalink: /bylaws
   license:
-    permalink: /license/
+    permalink: /license
   mission:
-    permalink: /mission/
+    permalink: /mission
   trademark:
-    permalink: /trademark/
+    permalink: /trademark
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .git]
@@ -62,7 +62,7 @@ colors:
   orange-light: '#feeacd'
   aqua-light: '#ccfffc'
   aqua-2-light: '#dfe6ec'
-  
+
 
 
 kramdown:
