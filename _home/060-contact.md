@@ -7,25 +7,25 @@ style: center
 ---
 
 {: .left}
-The jQuery Foundation is always interested in hearing from our community, supporters, users of our projects and anyone else interested in open source JavaScript. Please feel free to reach out to any of the contact points below.
+The JS Foundation is always interested in hearing from our community, supporters, users of our projects and anyone else interested in open source JavaScript. Please feel free to reach out to any of the contact points below.
 
 {: .contact-table .left}
-| **Conduct Committee:** | [conduct@jquery.org][] |
-| **General:** | [info@jquery.org][] |
-| **License & CLA Support:** | [license@jquery.org][] |
-| **Media:** | [media@jquery.org][] |
-| **Membership Inquiries:** | [membership@jquery.org][] |
-| **Project Inquiries:** | [projects@jquery.org][] |
+| **Conduct Committee:** | [conduct@js.foundation][] |
+| **General:** | [info@js.foundation][] |
+| **License & CLA Support:** | [license@js.foundation][] |
+| **Media:** | [media@js.foundation][] |
+| **Membership Inquiries:** | [membership@js.foundation][] |
+| **Project Inquiries:** | [projects@js.foundation][] |
 
 {: .left}
-You can also follow what's happening at the jQuery Foundation on [Twitter][], [GitHub][] and the [jQuery Foundation Blog][].
+You can also follow what's happening at the JS Foundation on [Twitter][], [GitHub][] and the [JS Foundation Blog][].
 
-[conduct@jquery.org]: mailto:conduct@jquery.org
-[info@jquery.org]: mailto:info@jquery.org
-[license@jquery.org]: mailto:license@jquery.org
-[media@jquery.org]: mailto:media@jquery.org
-[membership@jquery.org]: mailto:membership@jquery.org
-[projects@jquery.org]: mailto:projects@jquery.org
-[Twitter]: https://twitter.com/jquery/
-[GitHub]: https://github.com/jquery-foundation/
-[jQuery Foundation Blog]: https://blog.jquery.org
+[conduct@js.foundation]: mailto:conduct@js.foundation
+[info@js.foundation]: mailto:info@js.foundation
+[license@js.foundation]: mailto:license@js.foundation
+[media@js.foundation]: mailto:media@js.foundation
+[membership@js.foundation]: mailto:membership@js.foundation
+[projects@js.foundation]: mailto:projects@js.foundation
+[Twitter]: https://twitter.com/the_jsf
+[GitHub]: https://github.com/jsfoundation
+[JS Foundation Blog]: https://blog.js.foundation

@@ -5,7 +5,7 @@ color: black
 fa-icon: envelope-o
 ---
 
-If you believe someone is violating the code of conduct we ask that you report it to the jQuery Foundation by emailing [conduct@jquery.org][]. **All reports will be kept confidential.** In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
+If you believe someone is violating the code of conduct we ask that you report it to the JS Foundation by emailing [conduct@js.foundation][]. **All reports will be kept confidential.** In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
 **If you believe anyone is in physical danger, please notify appropriate law enforcement first.** If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
 
@@ -25,8 +25,8 @@ Reports will receive urgent and immediate attention from the Code of Conduct Com
 
 ### Appealing
 
-Only permanent resolutions (such as bans) may be appealed. To appeal a decision of the committee, contact the jQuery Foundation President and Executive Director at [executive@jquery.org][] with your appeal and they will review the case.
+Only permanent resolutions (such as bans) may be appealed. To appeal a decision of the committee, contact the JS Foundation President and Executive Director at [executive@js.foundation][] with your appeal and they will review the case.
 
-[conduct@jquery.org]: mailto:conduct@jquery.org
+[conduct@js.foundation]: mailto:conduct@js.foundation
 [Enforcement Manual]: #040-enforcement
-[executive@jquery.org]: mailto:executive@jquery.org
+[executive@js.foundation]: mailto:executive@js.foundation

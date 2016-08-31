@@ -6,7 +6,7 @@ fa-icon: battery-three-quarters
 ---
 
 {: .center}
-The jQuery Project is financed entirely by donations and contributions from the jQuery community.<br>Thank you for your support!
+The JS Foundation is financed entirely by its members and the donations and contributions from the JavaScript community.<br>Thank you for your support!
 
 <div class="row">
     <div class="half column center">
@@ -39,9 +39,9 @@ The jQuery Project is financed entirely by donations and contributions from the 
             <option value="1000">$1000</option>
             </select>
             <input type="hidden" name="cmd" value="_donations">
-            <input type="hidden" name="business" value="donate@jquery.org">
+            <input type="hidden" name="business" value="donate@js.foundation">
             <input type="hidden" name="lc" value="US">
-            <input type="hidden" name="item_name" value="jQuery Foundation">
+            <input type="hidden" name="item_name" value="JS Foundation">
             <input type="hidden" name="item_number" value="donate-25">
             <input type="hidden" name="no_note" value="1">
             <input type="hidden" name="no_shipping" value="1">
@@ -58,24 +58,9 @@ The jQuery Project is financed entirely by donations and contributions from the 
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="half column center">
-        <h2>Donate via Flattr</h2>
-        <div class="donate-link">
-        	<a href="https://flattr.com/submit/auto?user_id=jquery&amp;url=https%3A%2F%2Fjquery.org%2Fdonate%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
-        </div>
-    </div>
-
-    <div class="half column center">
-        <h2>Donate via Square Cash</h2>
-        <div class="donate-link">
-        	<h4><a href="https://cash.me/$jQuery" target="_blank">cash.me/$jQuery</a></h4>
-        </div>
-    </div>
-</div>
 
 <div class="full column center">
     <h2>Donate via Check</h2>
     <p>Please make checks payable to:</p>
-    <p><strong>jQuery Foundation</strong><br>340 S Lemon Ave. #8665<br>Walnut, CA 91789</p>
+    <p><strong>JS Foundation</strong><br>1 Letterman Dr, Suite D4700<br>San Francisco, CA 94129</p>
 </div>

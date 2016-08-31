@@ -7,7 +7,7 @@ color: black
 ### EFFECTIVE AS OF: June 3, 2015
 
 ## ARTICLE I: INTENT
-The name of this corporation is the jQuery Foundation, Inc. (the "Foundation"). The Foundation is
+The name of this corporation is the JS Foundation, Inc. (the "Foundation"). The Foundation is
 organized and operated exclusively for charitable purposes under the laws of the State of Delaware.
 
 ## ARTICLE II: PURPOSE

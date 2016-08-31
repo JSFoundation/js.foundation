@@ -1,1 +1,1 @@
-# The jQuery Foundation Website
+# The JS Foundation Website

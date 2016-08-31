@@ -28,10 +28,10 @@ highlighter: rouge
 
 
 ### content configuration ###
-title:       "The jQuery Foundation"
-keywords:    "jQuery, Foundation, open source, JavaScript"
-description: "The jQuery Foundation is a member supported non-profit trade association for web developers."
-source_link: "https://github.com/jquery-foundation/jquery.org"
+title:       "The JS Foundation"
+keywords:    "JS, Foundation, open source, JavaScript, jQuery"
+description: "The JS Foundation is a member supported non-profit trade association for web developers."
+source_link: "https://github.com/jsfoundation/js.foundation"
 favicon:     ""
 touch_icon:  ""
 google_analytics_key: "UA-1076265-4" ## put YOUR key here to enable tracking! (blank to disable)

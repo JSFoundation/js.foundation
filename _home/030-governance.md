@@ -5,7 +5,7 @@ color: black
 fa-icon: sitemap
 ---
 
-The jQuery Foundation is governed by 2 branches which separate business and technical decisions. The Board of Directors leads the business branch and is composed of corporate member representatives as well as a representative from the Collaboration Board. The technical branch of governance handles all technical aspects of the Foundation, independent of the Board of Directors.
+The JS Foundation is governed by 2 branches which separate business and technical decisions. The Board of Directors leads the business branch and is composed of corporate member representatives as well as a representative from the Collaboration Board. The technical branch of governance handles all technical aspects of the Foundation, independent of the Board of Directors.
 
 # Board of Directors
 

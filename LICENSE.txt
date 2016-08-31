@@ -1,4 +1,4 @@
-Copyright jQuery Foundation and other contributors, https://jquery.org/
+Copyright JS Foundation and other contributors, http://js.foundation
 SinglePaged Theme Copyright Tim O'Brien, http://t413.com/SinglePaged/
 
 The MIT License (MIT)

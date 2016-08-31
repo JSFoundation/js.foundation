@@ -5,7 +5,7 @@ color: white
 fa-icon: users
 ---
 
-The Code of Conduct Committee deals with violations in the [jQuery Foundation Code of Conduct][].
+The Code of Conduct Committee deals with violations in the [JS Foundation Code of Conduct][].
 
 Committee Members:
 
@@ -15,8 +15,8 @@ Committee Members:
 * John Resig
 * Adam Sontag
 
-You can contact [conduct@jquery.org][]. For more details please see the [Reporting Guidelines][].
+You can contact [conduct@js.foundation][]. For more details please see the [Reporting Guidelines][].
 
-[jQuery Foundation Code of Conduct]: #000-intro
-[conduct@jquery.org]: mailto:conduct@jquery.org
+[JS Foundation Code of Conduct]: #000-intro
+[conduct@js.foundation]: mailto:conduct@js.foundation
 [Reporting Guidelines]: #reporting

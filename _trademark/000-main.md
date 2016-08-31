@@ -7,16 +7,17 @@ color: black
 # Trademark Policy
 
 {: .left}
-The mission of the jQuery Foundation is to improve the open web, making it accessible for everyone through the development of open source software projects and collaboration with the development community. To that end, we provide individual open source projects with a top-level organizational structure and other resources that they need to produce the code that drives our shared mission. Over time, we’ve worked to make sure that contributors associate the jQuery name with a community with which they want to be a part, while developers and consumers associate our name with projects on which they know they can rely.
+With the mission of the JS Foundation in mind, we provide individual open source projects with a top-level organizational structure and other resources that they need to produce the code that drives that shared mission. Over time, we’ve worked to make sure that contributors associate the names of the Foundation and its projects with a community with which they want to be a part, while developers and consumers associate our name with projects on which they know they can rely.
 
-The way that trust and good will is expressed legally is through our various trademarks, and so the purpose of this policy is to make clear how those marks can and cannot be used. Our goal in this policy is to balance the mission of the Foundation and the ethos of the open source movement with the need to make sure that contributors, developers, and the public-at-large can rely on the jQuery Foundation brand as an identifier of a thriving community and quality code. As with everything that we do, we welcome the feedback of the community on how well we meet that goal.
+The way that trust and good will is expressed legally is through our various trademarks, and so the purpose of this policy is to make clear how those marks can and cannot be used. Our goal in this policy is to balance the mission of the Foundation and the ethos of the open source movement with the need to make sure that contributors, developers, and the public-at-large can rely on the JS Foundation brand as an identifier of a thriving community and quality code. As with everything that we do, we welcome the feedback of the community on how well we meet that goal.
 
 {: .left}
-## The jQuery Foundation Marks
+## The JS Foundation Marks
 
-The jQuery Foundation uses a number of trademarks to identify itself, its projects, and its general brand. These will be referred to as the "Marks", and include:
+The JS Foundation uses a number of trademarks to identify itself, its projects, and its general brand. These will be referred to as the "Marks", and include:
 
 * The "Word Marks"
+	* JS Foundation ®
 	* jQuery ®
 	* Write Less, Do More ®
 	* jQuery Mobile ®
@@ -29,6 +30,7 @@ The jQuery Foundation uses a number of trademarks to identify itself, its projec
 	* RequireJS ™
 	* Globalize ™
 * The "Logo Marks"
+	* [JS Foundation Logo](./img/jsf-logo.png) ®
 	* [jQuery Logo](http://brand.jquery.org/resources/jquery-mark-light.gif) ®
 	* [jQuery Mobile Logo](http://brand.jquery.org/resources/jquerymobile-mark-light.gif) ®
 	* [jQuery UI Logo](http://brand.jquery.org/resources/jqueryui-mark-light.gif) ®
@@ -39,7 +41,7 @@ The jQuery Foundation uses a number of trademarks to identify itself, its projec
 	* [RequireJS Logo](http://brand.jquery.org/resources/requirejs.png) ™
 	* [Globalize Logo](http://brand.jquery.org/resources/globalize-mark-light.gif) ™
 
-These marks, whether formally registered with the United States Patent and Trademark Office or not, are all the exclusive property of the jQuery Foundation, and their use is subject to this policy and the [Brand Guide](http://brand.jquery.org). Any exceptions to this policy or the Brand Guide must be approved in writing by the Foundation.
+These marks, whether formally registered with the United States Patent and Trademark Office or not, are all the exclusive property of the JS Foundation, and their use is subject to this policy and the [Brand Guide](http://brand.jquery.org). Any exceptions to this policy or the Brand Guide must be approved in writing by the Foundation.
 
 {: .left}
 ## General Guidelines
@@ -51,7 +53,7 @@ In any proper use of the Marks, the following guidelines will always apply:
 * All use is subject to the [Brand Guide](http://brand.jquery.org);
 * All Marks must be used in their exact form and may not be modified;
 * The first or most prominent use of a Mark must be accompanied by the proper trademark symbol (either ® or ™), as identified above;
-* A notice must be provided, either on the page with the Mark or on the credits page in the case of a website, or on the document with the Mark in the case of a document, that the Mark is a trademark of the jQuery Foundation and that your endeavor is not affiliated with the Foundation;
+* A notice must be provided, either on the page with the Mark or on the credits page in the case of a website, or on the document with the Mark in the case of a document, that the Mark is a trademark of the JS Foundation and that your endeavor is not affiliated with the Foundation;
 * No Logo Mark may be used to link to any website other than a Foundation or project website; and
 * Your website or printed materials may not copy the look and feel of the website or promotional materials of the Foundation or any of the Foundation’s projects.
 
@@ -67,14 +69,14 @@ There are some uses that we think are simply too likely to cause confusion to ev
 {: .left}
 ## Merchandising
 
-One of the ways in which the Foundation raises the funds necessary to support its open source projects is through merchandising, both by selling merchandise through licensed distributors and offering merchandise as an incentive to members, conference attendees, and the like. As such, the Marks may not be used in commercial or non-commercial merchandising of any kind. If you would like to purchase Foundation merchandise, please visit [DevSwag](http://devswag.com) or [join the Foundation](https://jquery.org/join/). If there’s merchandise you think we should be producing, please let us know at [info@jquery.org](mailto:info@jquery.org).
+One of the ways in which the Foundation raises the funds necessary to support its open source projects is through merchandising, both by selling merchandise through licensed distributors and offering merchandise as an incentive to conference attendees, and the like. As such, the Marks may not be used in commercial or non-commercial merchandising of any kind. If you would like to purchase Foundation merchandise, please visit [DevSwag](http://devswag.com). If there's merchandise you think we should be producing, please let us know at [info@js.foundation](mailto:info@js.foundation).
 
 {: .left}
 ## Commercial Software and Services
 
 An incredible community of developers and consultants has grown up around the Foundation and its projects, and while our mission is to promote the open web and we encourage the free exchange of developments, we are also glad that members of that community are able to use the work of the Foundation to make a living. As noted above though, any commercial use of the Marks is going to be more closely scrutinized and more restricted.
 
-To that end, the Foundation’s Word Marks may be used in conjunction with the commercial marketing of software built using and services surrounding the Foundation’s projects, provided of course that those uses are non-confusing and otherwise comply with this policy and the [Brand Guide](http://brand.jquery.org). Conversely, the Logo Marks may not be used in conjunction with the commercial marketing of software built using or services surrounding the Foundation’s projects, or for any other commercial purpose unless specifically authorized in writing by the Foundation. To request such authorization, write to [info@jquery.org](mailto:info@jquery.org).
+To that end, the Foundation’s Word Marks may be used in conjunction with the commercial marketing of software built using and services surrounding the Foundation’s projects, provided of course that those uses are non-confusing and otherwise comply with this policy and the [Brand Guide](http://brand.jquery.org). Conversely, the Logo Marks may not be used in conjunction with the commercial marketing of software built using or services surrounding the Foundation’s projects, or for any other commercial purpose unless specifically authorized in writing by the Foundation. To request such authorization, write to [info@js.foundation](mailto:info@js.foundation).
 
 {: .left}
 ## Open Source Community Promotion
@@ -96,4 +98,4 @@ The body of statutory and case law outlining the metes and bounds of fair use in
 {: .left}
 ## Conclusion
 
-In creating this policy the Foundation has sought to balance the guiding principles of our mission and the open source movement with the need to present a clear and reliable indicator of source to the community, whether the community of contributors or the community of developers and users. This policy, like all of our projects, is a work in progress and shaped by the input of our community, so we welcome all feedback and reserve the right to modify this policy as time goes on. To contribute your feedback and help us continue to shape an open source framework for intellectual property usage, reach out to [info@jquery.org](mailto:info@jquery.org).
+In creating this policy the Foundation has sought to balance the guiding principles of our mission and the open source movement with the need to present a clear and reliable indicator of source to the community, whether the community of contributors or the community of developers and users. This policy, like all of our projects, is a work in progress and shaped by the input of our community, so we welcome all feedback and reserve the right to modify this policy as time goes on. To contribute your feedback and help us continue to shape an open source framework for intellectual property usage, reach out to [info@js.foundation](mailto:info@js.foundation).
