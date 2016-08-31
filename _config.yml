@@ -40,6 +40,7 @@ google_analytics_key: "UA-1076265-4" ## put YOUR key here to enable tracking! (b
 ### template colors, used site-wide via css ###
 colors:
   black:     '#333333'
+  light-grey: '#eeeeee'
   grey:      '#dddddd'
   grey-2:    '#c1d8eB'
   grey-3:    '#41586B'
