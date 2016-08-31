@@ -4,7 +4,6 @@ bg: black
 color: white
 style: center
 ---
-<div id="ad"></div>
 
 {: .first-content}
 <img src="img/jqf-logo.png" />

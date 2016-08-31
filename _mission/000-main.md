@@ -3,8 +3,6 @@ title: "mission"
 bg: grey
 color: black
 ---
-<div id="ad" class="center"></div>
-<br>
 
 # Mission and Vision
 

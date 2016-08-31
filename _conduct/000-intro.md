@@ -4,8 +4,6 @@ bg: purple-2
 color: white
 ---
 
-<div id="ad" class="center"></div>
-
 {: .center .first-content}
 # jQuery Foundation Code of Conduct
 

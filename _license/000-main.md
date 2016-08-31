@@ -3,8 +3,6 @@ title: "license"
 bg: grey
 color: black
 ---
-<div id="ad" class="center"></div>
-<br>
 
 # License
 

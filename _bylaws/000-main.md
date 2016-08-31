@@ -3,8 +3,6 @@ title: "bylaws"
 bg: blue-2
 color: black
 ---
-<div id="ad" class="center"></div>
-<br>
 
 ### EFFECTIVE AS OF: June 3, 2015
 
