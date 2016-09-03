@@ -327,6 +327,14 @@ nav ul li:hover, nav ul li.active {
   margin-bottom: 0;
 }
 
+.row.project-row {
+  margin: 0;
+}
+
+.half.column.projects {
+  margin: 20px 10px 0 10px;
+}
+
 .half.column.projects img {
   top: auto;
   margin-top: inherit;
@@ -341,12 +349,27 @@ nav ul li:hover, nav ul li.active {
   font-weight: 600 !important;
   margin-top: 20px;
 }
+
 div.projects {
   background-color: #fff !important;
   border-radius: 10px;
   color: #333;
+  padding-top: 10px;
+  min-height: 220px;
+  position: relative;
 }
- 
+
+div.projects div {
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
+div.projects div p {
+  margin: 0;
+  display: block;
+}
+
 a.projects {
   text-decoration: none;
   color: #333333 !important;
@@ -363,11 +386,6 @@ a.projects {
 
 .donate-link h4 > a:hover {
   background-color: #ccfffc;
-}
-
-.half.column.projects div {
-  top: auto;
-  margin-top: inherit;
 }
 
 .contact-table {
@@ -425,4 +443,19 @@ a.projects {
     -moz-column-count:    2;
     column-count:         2;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .container .half.column  { width: 80%; }
+  .half.column.projects    { margin: 20px 10% 0 10%; }
+}
+
+@media only screen and (max-width: 767px) {
+  .container .half.column  { width: 98%; }
+  .half.column.projects    { margin: 20px 1% 0 1%; }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container .half.column  { width: 98%; }
+  .half.column.projects    { margin: 20px 1% 0 1%; }
 }
