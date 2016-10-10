@@ -1,0 +1,151 @@
+html {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.6;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+
+	&.has-offcanvas {
+		overflow: hidden;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0 0 1em;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 300;
+	margin-bottom: 3rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2.25rem;
+	font-weight: 400;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-size: 1.75rem;
+}
+
+p {
+	font-size: 1.25rem;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+mark {
+	background-color: #ff0;
+	color: #000;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+ul {
+	margin: 1.5rem 0;
+}
+
+li {
+	margin: .5rem 0;
+}
+
+table {
+	margin: 1.5rem 0;
+	width: 100%;
+}
+
+th,
+td {
+	padding: .5rem 0;
+}
+
+/*
+menu,
+details {
+	display: block;
+}
+
+summary {
+	display: list-item;
+}
+
+progress {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+template {
+	display: none;
+}
+*/
+
+::-moz-selection {
+	background: #ff2b6e;
+	color: #fff;
+	//text-shadow: none;
+}
+
+::selection {
+	background: #ff2b6e;
+	color: #fff;
+	//text-shadow: none;
+}

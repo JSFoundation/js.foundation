@@ -1,70 +1,65 @@
 ---
 
-port: 4000
+title: "The JS Foundation"
+description: "The JS Foundation is a member supported non-profit trade association for web developers."
+keywords: "JS, Foundation, open source, JavaScript, jQuery"
+
+url: "https://js.foundation"
+
 host: 0.0.0.0
-safe: false
+port: 4000
+safe: true
 
-### collections ###
-collections:
-  home:
-    permalink: /
-  conduct:
-    permalink: /conduct
-  bylaws:
-    permalink: /bylaws
-  license:
-    permalink: /license
-  mission:
-    permalink: /mission
-  trademark:
-    permalink: /trademark
+include:
+  - _pages
+  - .htacces
+exclude:
+  - CNAME
+  - README.md
+  - .git
+  - Gemfile
+  - Gemfile.lock
 
-### site serving configuration ###
-exclude: [CNAME, README.md, .git]
-timezone: null
-lsi: false
 markdown: kramdown
 highlighter: rouge
+sass:
+  style: :compressed
 
+permalink: pretty
 
-### content configuration ###
-title:       "The JS Foundation"
-keywords:    "JS, Foundation, open source, JavaScript, jQuery"
-description: "The JS Foundation is a member supported non-profit trade association for web developers."
-source_link: "https://github.com/jsfoundation/js.foundation"
-favicon:     ""
-touch_icon:  ""
-google_analytics_key: "UA-1076265-4" ## put YOUR key here to enable tracking! (blank to disable)
+collections:
+  - projects
 
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: "/:basename/"
+      layout: "left"
+  - scope:
+      path: "_pages/index.md"
+    values:
+      permalink: "/index.html"
+      layout: "home"
+  - scope:
+      path: "_pages/404.md"
+    values:
+      permalink: "/404.html"
+      layout: "error"
+  - scope:
+      path: "_pages/projects.md"
+    values:
+      layout: "projects"
+  - scope:
+      path: "_pages/blog.md"
+    values:
+      layout: "blog"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: "/blog/:categories/:year/:month/:day/:title/"
+      layout: "post"
 
-### template colors, used site-wide via css ###
-colors:
-  black:     '#333333'
-  light-grey: '#eeeeee'
-  grey:      '#dddddd'
-  grey-2:    '#c1d8eB'
-  grey-3:    '#41586B'
-  white:     '#f8f8f8'
-  blue-1:    '#0769ad'
-  blue-1-e:  '#595959'
-  green:     '#3eb249'
-  green-2:   '#108040'
-  purple:    '#9C3493'
-  purple-2:  '#390f39'
-  orange:    '#faa523'
-  blue-2:    '#7acef4'
-  red:       '#9a1b1e'
-  aqua:      '#009B93'
-  aqua-2:    '#41586B'
-  blue-1-light: '#cee9fd'
-  blue-2-light: '#d0edfb'
-  green-2-light: '#d2f9e3'
-  purple-2-light: '#f4d7f4'
-  orange-light: '#feeacd'
-  aqua-light: '#ccfffc'
-  aqua-2-light: '#dfe6ec'
-
-
-
-kramdown:
-  auto_ids:  false
+google_analytics_id: "UA-1076265-4"

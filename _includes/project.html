@@ -1,0 +1,12 @@
+<article class="project">
+<a class="project-link" href="{{ include.site }}">
+<!-- TODO srcset 2x -->
+<h2 class="project-title">{{ include.name }}</h2>
+<div class="project-logo-container">
+<img class="project-logo" src="{{ site.url }}/img/projects/{{ include.logo }}" alt="{{ include.name }} logo">
+</div>
+<div class="project-content">
+{{ include.content }}
+</div>
+</a>
+</article>

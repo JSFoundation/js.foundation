@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+	{% include head.html %}
+
+	<body class="home-layout">
+
+		{% include header-home.html %}
+
+		<main class="main_home-layout">
+
+			<article class="main-content_home-layout">
+
+				<div class="page-intro_home-layout">
+					{{ content }}
+				</div>
+
+			</article>
+
+		</main>
+
+		{% include footer.html %}
+
+		{% include offcanvas.html %}
+
+		{% include footer-scripts.html %}
+
+	</body>
+</html>

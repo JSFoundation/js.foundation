@@ -1,0 +1,48 @@
+{% if include.layout %}
+	{% assign suffix = include.layout | prepend: "_" | append: "-layout" %}
+{% else %}
+	{% assign suffix = "" %}
+{% endif %}
+
+<main class="main{{ suffix }}">
+
+	<article class="main-content{{ suffix }}">
+
+		{% if include.split %}
+			{% assign split_tag = include.split | prepend: "<" %}
+		{% else %}
+			{% assign split_tag = "<h2" %}
+		{% endif %}
+
+		{% assign sections = content | markdownify | split: split_tag %}
+
+		<header class="page-header{{ suffix }}">
+
+			{% if page.title %}
+				{% if page.parent_title %}<p class="page-parent-title{{ suffix }}">{{ page.parent_title }}</p>{% endif %}
+				<h1 class="page-title{{ suffix }}">{{ page.title }}</h1>
+			{% endif %}
+
+			{% if sections.first != '' and sections.size != 1 %}
+				<div class="page-intro{{ suffix }}">
+					{{ sections.first }}
+				</div>
+			{% endif %}
+
+		</header>
+
+		<div class="page-sections{{ suffix }}">
+
+			{% for section in sections %}
+				{% unless forloop.first and sections.size != 1 %}
+					<section class="page-section{{ suffix }}">
+						{% unless sections.size == 1 %}{{ split_tag }}{% endunless %}{{ section }}
+					</section>
+				{% endunless %}
+			{% endfor %}
+
+		</div>
+
+	</article>
+
+</main>

@@ -1,0 +1,49 @@
+- title: "Home"
+  href: "/"
+
+- title: "Projects"
+  href: "/projects/"
+
+- title: "Mission"
+  href: "/mission/"
+
+- title: "Governance"
+  href: "/governance/"
+
+- title: "Members"
+  href: "/members/"
+
+- title: "Donate"
+  href: "/donate/"
+
+- title: "Conduct"
+  href: "/conduct/"
+
+- title: "Contact"
+  href: "/contact/"
+
+- title: "Conduct"
+  href: "/conduct/"
+  sub:
+    - subtitle: "Committee"
+      subhref: "/conduct/committee/"
+    - subtitle: "FAQ"
+      subhref: "/conduct/faq/"
+    - subtitle: "Reporting"
+      subhref: "/conduct/reporting/"
+    - subtitle: "Enforcement"
+      subhref: "/conduct/enforcement/"
+    - subtitle: "Changes"
+      subhref: "/conduct/changes/"
+
+- title: "Blog"
+  href: "/blog/"
+
+- title: "Trademark"
+  href: "/trademark/"
+
+- title: "License"
+  href: "/license/"
+
+- title: "Bylaws"
+  href: "/bylaws/"

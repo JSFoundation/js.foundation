@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+	{% include head.html %}
+
+	<body class="blog-layout">
+
+		{% include header.html %}
+
+		<main class="main_blog-layout">
+
+			<div class="main-content_blog-layout">
+
+				<header class="page-header_blog-layout">
+
+					<h1 class="page-title_blog-layout">{{ page.title }}</h1>
+
+					{{ content }}
+
+				</header>
+
+				<div class="posts">
+
+					{% for post in site.posts %}
+						{% assign date = post.date | date: '%B %-d, %Y' %}
+						{% include post.html url=post.url title=post.title excerpt=post.excerpt img=post.img date=date category=post.category %}
+					{% endfor %}
+
+				</div>
+
+			</div>
+
+		</main>
+
+		{% include footer.html %}
+
+		{% include offcanvas.html %}
+
+		{% include footer-scripts.html %}
+
+	</body>
+</html>

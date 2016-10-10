@@ -1,0 +1,45 @@
+{% assign location = include.location %}
+{% assign menu = location | append: "-menu" %}
+
+<ul class="{{ location }}-menu">
+
+	{% for item in site.data[ menu ] %}
+
+		{% if item.sub != null and location == "offcanvas" %}
+
+			<li class="{{ location }}-menu-item">
+
+				{% if item.href != null %}
+
+					<a class="{{ location }}-menu-link{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>
+
+				{% else %}
+
+					{{ item.title }}
+
+				{% endif %}
+
+				<ul class="{{ location }}-submenu">
+
+					{% for subitem in item.sub %}
+
+						<li class="{{ location }}-submenu-item">
+							<a class="{{ location }}-submenu-link{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ subitem.subhref }}">{{ subitem.subtitle }}</a>
+						</li>
+
+					{% endfor %}
+
+				</ul>
+			</li>
+
+		{% else %}
+
+			<li class="{{ location }}-menu-item">
+				<a class="{{ location }}-menu-link{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>
+			</li>
+
+		{% endif %}
+
+	{% endfor %}
+
+</ul>

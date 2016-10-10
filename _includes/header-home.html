@@ -1,0 +1,20 @@
+<header class="header_home-layout">
+	<div class="header-content_home-layout">
+
+		<nav class="header-nav_home-layout">
+
+			<h3 class="a11y">Main navigation menu</h3>
+
+			{% include menu.html location="header" %}
+
+			<button class="offcanvas-nav-control">
+				<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+				</svg>
+			</button>
+		</nav>
+
+		<h1 class="home-title"><img class="home-logo" src="{{ site.url }}/assets/img/jsf-logo.png" alt="{{ site.title }}"></h1>
+
+	</div>
+</header>
