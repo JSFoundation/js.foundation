@@ -30,7 +30,7 @@ Only the "offcanvas menu" can contain one level submenus. The `href` of the pare
 
 The page title is an `h1` heading. Don't include it in the content, but only set the page title in the [front matter](https://jekyllrb.com/docs/frontmatter/).
 
-Each `h2` (`##`) heading on a page starts a new section. The text before the first `h2` heading is treated as intro text and added to the article header together with the page title.
+Each `h2` (`##`) heading on a page starts a new section. The text before the first `h2` heading is treated as intro text and added to the article header together with the page title. To use a different split tag, add `split: "[tag name]"` to the front matter of the page. 
 
 ### Links & Images
 

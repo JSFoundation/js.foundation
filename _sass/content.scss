@@ -8,7 +8,6 @@ aside {
 .main {
 	&_center-layout,
 	&_home-layout,
-	&_faq-layout,
 	&_left-layout,
 	&_blog-layout,
 	&_post-layout,
@@ -26,7 +25,6 @@ aside {
 .main-content {
 	&_center-layout,
 	&_home-layout,
-	&_faq-layout,
 	&_left-layout,
 	&_blog-layout,
 	&_post-layout,
@@ -43,7 +41,6 @@ aside {
 
 .page-parent-title {
 	&_center-layout,
-	&_faq-layout,
 	&_left-layout {
 		font-size: .875rem;
 		font-weight: 700;
@@ -54,7 +51,6 @@ aside {
 
 .page-title {
 	&_center-layout,
-	&_faq-layout,
 	&_left-layout,
 	&_blog-layout,
 	&_projects-layout {
@@ -79,7 +75,6 @@ aside {
 
 	&_center-layout,
 	&_home-layout,
-	&_faq-layout,
 	&_left-layout,
 	&_blog-layout,
 	&_projects-layout {
@@ -100,7 +95,6 @@ aside {
 
 .page-section {
 	&_center-layout,
-	&_faq-layout,
 	&_left-layout {
 		& > h2 {
 			text-transform: uppercase;
@@ -288,7 +282,6 @@ aside {
 	.main-content {
 		&_center-layout,
 		&_home-layout,
-		&_faq-layout,
 		&_left-layout,
 		&_blog-layout,
 		&_post-layout,
@@ -340,7 +333,6 @@ aside {
 	.main-content {
 		&_center-layout,
 		&_home-layout,
-		&_faq-layout,
 		&_left-layout,
 		&_blog-layout,
 		&_post-layout,
@@ -361,10 +353,10 @@ aside {
 	}
 
 	.page-title {
-		&_faq-layout,
 		&_left-layout,
 		&_blog-layout {
 			text-align: left;
+
 			&::after {
 				margin-left: 0;
 				margin-right: 0;
@@ -384,7 +376,6 @@ aside {
 
 		&_center-layout,
 		&_home-layout,
-		&_faq-layout,
 		&_left-layout,
 		&_blog-layout,
 		&_projects-layout {

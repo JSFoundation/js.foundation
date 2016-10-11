@@ -2,7 +2,7 @@
 title: "FAQ"
 parent_title: "Code of Conduct"
 permalink: "/conduct/faq/"
-layout: "faq"
+split: "h3"
 ---
 
 This FAQ attempts to address common questions and concerns around the JS Foundation's [Code of Conduct][]. If you still have questions after reading it, please feel free to [contact us][].

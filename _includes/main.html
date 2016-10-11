@@ -8,8 +8,8 @@
 
 	<article class="main-content{{ suffix }}">
 
-		{% if include.split %}
-			{% assign split_tag = include.split | prepend: "<" %}
+		{% if page.split %}
+			{% assign split_tag = page.split | prepend: "<" %}
 		{% else %}
 			{% assign split_tag = "<h2" %}
 		{% endif %}
