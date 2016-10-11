@@ -11,6 +11,7 @@ body {
 }
 
 body {
+	font-size: 1.25rem;
 	margin: 0;
 
 	&.has-offcanvas {
@@ -45,10 +46,6 @@ h4,
 h5,
 h6 {
 	font-size: 1.75rem;
-}
-
-p {
-	font-size: 1.25rem;
 }
 
 hr {
