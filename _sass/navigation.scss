@@ -61,11 +61,20 @@ a {
 	padding: 0;
 
 	&-item {
+		font-size: 1rem;
 		margin: 0 0 .5rem;
 	}
 
 	&-link {
 		color: inherit;
+		font-weight: 700;
+		transition: color 150ms ease-out;
+
+		&:hover,
+		&:focus {
+			color: #666;
+			text-decoration: none;
+		}
 	}
 }
 
