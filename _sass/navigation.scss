@@ -218,3 +218,62 @@ a {
 		}
 	}
 }
+
+.page-sub-nav {
+	display: block;
+	margin-bottom: 3rem;
+}
+
+.page-submenu,
+.page-submenu-submenu {
+	&_center-layout,
+	&_left-layout {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	&_center-layout {
+		text-align: center;
+	}
+
+	&-item {
+		&_center-layout,
+		&_left-layout {
+			font-size: .875rem;
+		}
+
+		&_center-layout {
+			display: inline-block;
+			margin: 0 1rem;
+		}
+	}
+
+	&-link {
+		&_center-layout,
+		&_left-layout {
+			color: #666;
+			font-weight: 700;
+
+			&:hover,
+			&:focus {
+				color: #999;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.page-submenu-submenu {
+	&_center-layout,
+	&_left-layout {
+		margin-top: 1rem;
+	}
+}
+
+.page-submenu-link {
+	&_center-layout,
+	&_left-layout {
+		font-size: 1.125rem;
+	}
+}

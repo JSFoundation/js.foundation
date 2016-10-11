@@ -2,6 +2,8 @@
 title: "Enforcement"
 parent_title: "Code of Conduct"
 permalink: "/conduct/enforcement/"
+submenu: "conduct-menu"
+split: "h3"
 ---
 
 This is the enforcement manual followed by JS Foundation's Code of Conduct Committee. It's used when we respond to an issue to make sure we're consistent and fair. It should be considered an internal document, but we're publishing it publicly in the interest of transparency.

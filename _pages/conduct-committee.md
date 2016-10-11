@@ -2,6 +2,7 @@
 title: "Committee"
 parent_title: "Code of Conduct"
 permalink: "/conduct/committee/"
+submenu: "conduct-menu"
 ---
 
 The Code of Conduct Committee deals with violations in the [JS Foundation Code of Conduct][].

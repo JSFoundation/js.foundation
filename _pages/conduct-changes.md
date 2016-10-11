@@ -2,6 +2,7 @@
 title: "Changes"
 parent_title: "Code of Conduct"
 permalink: "/conduct/changes/"
+submenu: "conduct-menu"
 ---
 
 ## Change control process

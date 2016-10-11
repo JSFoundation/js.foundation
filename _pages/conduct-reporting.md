@@ -2,11 +2,15 @@
 title: "Reporting"
 parent_title: "Code of Conduct"
 permalink: "/conduct/reporting/"
+submenu: "conduct-menu"
+split: "h3"
 ---
 
 If you believe someone is violating the code of conduct we ask that you report it to the JS Foundation by emailing [conduct@js.foundation][]. **All reports will be kept confidential.** In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
-**If you believe anyone is in physical danger, please notify appropriate law enforcement first.** If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
+### If you believe anyone is in physical danger, please notify appropriate law enforcement first
+
+If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
 
 In your report please include:
 
