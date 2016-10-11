@@ -276,7 +276,12 @@ aside {
 .payment-method {
 	border: 1px solid #ddd;
 	display: inline-block;
-	padding: 4rem;
+	padding: 2.5rem 4rem;
+}
+
+.payment-method select {
+	display: block;
+	margin: 0 auto 2rem;
 }
 
 @media (min-width:50em) {
