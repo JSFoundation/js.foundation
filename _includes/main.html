@@ -36,7 +36,12 @@
 			{% for section in sections %}
 				{% unless forloop.first and sections.size != 1 %}
 					<section class="page-section{{ suffix }}">
-						{% unless sections.size == 1 %}{{ split_tag }}{% endunless %}{{ section }}
+						{% if split_tag != "<h2" and section contains "<h2" %}
+							{% assign replacement = '</section><section class="page-section' | append: suffix | append: '"><h2' %}
+							{% unless sections.size == 1 %}{{ split_tag }}{% endunless %}{{ section | replace: "<h2", replacement }}
+						{% else %}
+							{% unless sections.size == 1 %}{{ split_tag }}{% endunless %}{{ section }}
+						{% endif %}
 					</section>
 				{% endunless %}
 			{% endfor %}
