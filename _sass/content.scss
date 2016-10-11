@@ -370,7 +370,7 @@ aside {
 		&_center-layout,
 		&_home-layout,
 		&_projects-layout {
-			// TODO vendor prefixes + avoid breaks inside paragraphs
+			// TODO vendor prefixes
 			columns: 2;
 			column-gap: 3rem;
 			padding: 0 6rem 3rem;
@@ -386,6 +386,14 @@ aside {
 				font-size: 1.125rem;
 				font-weight: 300;
 				text-align: justify;
+			}
+		}
+
+		&_center-layout,
+		&_home-layout,
+		&_projects-layout {
+			& > p {
+				display: inline-block; // Prevent column break inside paragraph.
 			}
 		}
 	}
