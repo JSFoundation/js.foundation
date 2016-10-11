@@ -50,9 +50,14 @@ h6 {
 }
 
 hr {
+    border: 0;
+    border-top: 1px solid #ddd;
 	box-sizing: content-box;
-	height: 0;
+    display: block;
+	height: 1px;
 	overflow: visible;
+    margin: 1.5rem 0;
+    padding: 0;
 }
 
 abbr[title] {
