@@ -176,12 +176,12 @@ a {
 		transition: color 150ms ease-out;
 
 		&:hover {
-			color: #999;
+			color: #666;
 			text-decoration: none;
 		}
 
 		&.current {
-			color: #999;
+			color: #666;
 			cursor: default;
 			pointer-events: none;
 		}
