@@ -3,44 +3,47 @@
 
 - title: "About"
   href: "/about/"
+  sub:
+    - subtitle: "Governance"
+      subhref: "/governance/"
+      sub:
+        - subsubtitle: "Bylaws"
+          subsubhref: "/pdf/bylaws.pdf"
+        - subsubtitle: "IP Policy"
+          subsubhref: "/pdf/ip-policy.pdf"
+        - subsubtitle: "Trademark"
+          subsubhref: "/trademark/"
+    - subtitle: "Conduct"
+      subhref: "/conduct/"
+      sub:
+        - subsubtitle: "Committee"
+          subsubhref: "/conduct/committee/"
+        - subsubtitle: "FAQ"
+          subsubhref: "/conduct/faq/"
+        - subsubtitle: "Reporting"
+          subsubhref: "/conduct/reporting/"
+        - subsubtitle: "Enforcement"
+          subsubhref: "/conduct/enforcement/"
+        - subsubtitle: "Changes"
+          subsubhref: "/conduct/changes/"
+    - subtitle: "Donate"
+      subhref: "/donate/"
+    - subtitle: "Contact"
+      subhref: "/contact/"
 
 - title: "Projects"
   href: "/projects/"
 
-- title: "Governance"
-  href: "/governance/"
-
 - title: "Members"
   href: "/members/"
 
-- title: "Donate"
-  href: "/donate/"
+- title: "Events"
+  href: "/events/"
 
-- title: "Contact"
-  href: "/contact/"
-
-- title: "Conduct"
-  href: "/conduct/"
+- title: "News"
+  href: "/news/"
   sub:
-    - subtitle: "Committee"
-      subhref: "/conduct/committee/"
-    - subtitle: "FAQ"
-      subhref: "/conduct/faq/"
-    - subtitle: "Reporting"
-      subhref: "/conduct/reporting/"
-    - subtitle: "Enforcement"
-      subhref: "/conduct/enforcement/"
-    - subtitle: "Changes"
-      subhref: "/conduct/changes/"
-
-- title: "Blog"
-  href: "/blog/"
-
-- title: "Trademark"
-  href: "/trademark/"
-
-- title: "License"
-  href: "/license/"
-
-- title: "Bylaws"
-  href: "/bylaws/"
+    - subtitle: "Announcements"
+      subhref: "/announcements/"
+    - subtitle: "Blog"
+      subhref: "/blog/"
