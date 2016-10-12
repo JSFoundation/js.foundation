@@ -9,7 +9,7 @@ The Code of Conduct Committee deals with violations in the [JS Foundation Code o
 
 Committee Members:
 
-* Chair: Corey Frang
+* Corey Frang (chair)
 * Anne-Gaelle Colom
 * Sarah Frisk
 * John Resig
