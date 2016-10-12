@@ -8,10 +8,21 @@ These are the current members of the JS Foundation and if you are interested in 
 
 ## Platinum
 
-
+{% include member.html name="IBM" logo="ibm.svg" site="http://ibm.com" %}
+{% include member.html name="Samsung" logo="samsung.svg" site="http://samsung.com" %}
 
 ## Silver
 
+{% include member.html name="Bocoup" logo="bocoup.svg" site="https://bocoup.com" %}
+{% include member.html name="Ripple" logo="ripple.svg" site="https://ripple.com" %}
+{% include member.html name="Sauce Labs" logo="sauce-labs.svg" site="http://saucelabs.com" %}
+{% include member.html name="Sense Tecnic Systems" logo="sense-tecnic.svg" site="http://sensetecnic.com" %}
+{% include member.html name="SitePen" logo="sitepen.svg" site="https://sitepen.com" %}
+{% include member.html name="StackPath" logo="stackpath.svg" site="https://stackpath.com" %}
+{% include member.html name="WebsiteSetup" logo="website-setup.svg" site="http://websitesetup.org" %}
 
+## Associate
+
+{% include member.html name="University of Westminster" logo="UOW.svg" site="https://westminster.ac.uk" %}
 
 [membership@js.foundation]: mailto:membership@js.foundation
