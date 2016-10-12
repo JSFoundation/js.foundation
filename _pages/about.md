@@ -1,5 +1,5 @@
 ---
-title: "Mission and Vision"
+title: "About"
 ---
 
 ## Vision Statement
