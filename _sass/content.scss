@@ -380,7 +380,12 @@ aside {
 		&_home-layout,
 		&_projects-layout {
 			& > p {
-				display: inline-block; // Prevent column break inside paragraph.
+				overflow: hidden;
+				-webkit-column-break-inside: avoid;
+				page-break-inside: avoid;
+				break-inside: avoid;
+				margin-bottom: 0;
+				padding-bottom: 1em;
 			}
 		}
 	}
