@@ -46,7 +46,7 @@ defaults:
       path: "_pages/404.md"
     values:
       permalink: "/404.html"
-      layout: "error"
+      layout: "center"
   - scope:
       path: "_pages/projects.md"
     values:
