@@ -49,9 +49,8 @@
 								{% endif %}
 
 											{% for subitem in item.sub %}
-
 												<li class="page-submenu-submenu-item{{ suffix }}">
-													<a class="page-submenu-submenu-link{{ suffix }}{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ subitem.subhref }}">{{ subitem.subtitle }}</a>
+													<a class="page-submenu-submenu-link{{ suffix }}{% if subitem.subhref == page.url %} current{% endif %}" href="{{ site.url }}{{ subitem.subhref }}">{{ subitem.subtitle }}</a>
 												</li>
 
 											{% endfor %}
