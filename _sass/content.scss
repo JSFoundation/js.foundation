@@ -56,6 +56,12 @@ aside {
 	}
 }
 
+.page-sub-nav_center-layout,
+.page-sub-nav_left-layout {
+	display: block;
+	margin-bottom: 3rem;
+}
+
 .page-intro {
 	&_center-layout,
 	&_home-layout,
@@ -352,6 +358,14 @@ aside {
 				margin-right: 0;
 			}
 		}
+	}
+
+	.page-sub-nav_center-layout {
+		margin: -1.5rem 0 1.5rem;
+	}
+
+	.page-sub-nav_left-layout {
+		margin: -.75rem 0 2.25rem;
 	}
 
 	.page-intro {

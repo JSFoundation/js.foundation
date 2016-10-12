@@ -219,11 +219,6 @@ a {
 	}
 }
 
-.page-sub-nav {
-	display: block;
-	margin-bottom: 3rem;
-}
-
 .page-submenu,
 .page-submenu-submenu {
 	&_center-layout,
@@ -231,9 +226,6 @@ a {
 		list-style: none;
 		margin: 0;
 		padding: 0;
-	}
-
-	&_center-layout {
 		text-align: center;
 	}
 
@@ -241,23 +233,19 @@ a {
 		&_center-layout,
 		&_left-layout {
 			font-size: .875rem;
-		}
-
-		&_center-layout {
-			display: inline-block;
-			margin: 0 1rem;
+			margin-bottom: 1.5rem;
 		}
 	}
 
 	&-link {
 		&_center-layout,
 		&_left-layout {
-			color: #666;
-			font-weight: 700;
+			text-transform: uppercase;
+			transition: color 150ms ease-out;
 
 			&:hover,
 			&:focus {
-				color: #999;
+				color: inherit;
 				text-decoration: none;
 			}
 		}
@@ -274,6 +262,27 @@ a {
 .page-submenu-link {
 	&_center-layout,
 	&_left-layout {
-		font-size: 1.125rem;
+		font-size: 1rem;
+		font-weight: 700;
+	}
+}
+
+@media (min-width:75em) {
+	.page-submenu,
+	.page-submenu-submenu {
+		&_left-layout {
+			text-align: left;
+		}
+
+		&-item {
+			&_left-layout {
+				margin-bottom: .5rem;
+			}
+
+			&_center-layout {
+				display: inline-block;
+				margin: 0 1.5rem;
+			}
+		}
 	}
 }
