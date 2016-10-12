@@ -17,17 +17,10 @@
 	}
 }
 
-@media (min-width:75em) {
-	.footer-content {
-		padding: 2rem 3rem;
-
-	}
-}
-
 .footer-legal {
 	& > p {
-		font-size: 1rem;
-		margin-bottom: 1rem;
+		font-size: .9375rem;
+		margin-bottom: .5rem;
 	}
 }
 
@@ -37,6 +30,10 @@
 }
 
 @media (min-width:75em) {
+	.footer-content {
+		padding: 1.5rem 3rem;
+	}
+
 	.footer-legal {
 		float: left;
 		width: 67%;
