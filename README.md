@@ -30,7 +30,7 @@ Only the "offcanvas menu" can contain one level submenus. The `href` of the pare
 
 The page title is an `h1` heading. Don't include it in the content, but only set the page title in the [front matter](https://jekyllrb.com/docs/frontmatter/).
 
-Each `h2` (`##`) heading on a page starts a new section. The text before the first `h2` heading is treated as intro text and added to the article header together with the page title. To use a different split tag, add `split: "[tag name]"` to the front matter of the page. 
+Each `h2` (`##`) heading on a page starts a new section. The text before the first `h2` heading is treated as intro text and added to the article header together with the page title. To use a different split tag, add `split: "[tag name]"` to the front matter of the page.
 
 ### Links & Images
 
@@ -64,11 +64,11 @@ permalink: "/parent-page/child/"
 ---
 ```
 
-### Projects
+### Projects & Events
 
-Each project is added as an `.md` file in the `_projects` folder. The "Front Matter" of this file should contain `name`, `site`, and `logo`. The logo file has to be in the `img/projects/` folder.
+Projects and Events are collections that use the "card" layout. Each item should be added as an `.md` file in the `_[collection-name]` folder. The "Front Matter" of this file should contain `name`, `site`, and `logo`. The logo file has to be in the `img/[collection-name]/` folder.
 
-Don't include links in the project description, because it's wrapped in an anchor element already that links to the project site and links inside links results in invalid markup.
+Don't include links in the description because it's wrapped in an anchor element already that links to the project site and links inside links results in invalid markup.
 
 ## Notes
 

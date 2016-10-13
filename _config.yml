@@ -29,6 +29,7 @@ permalink: pretty
 
 collections:
   - projects
+  - events
 
 defaults:
   - scope:
@@ -50,7 +51,11 @@ defaults:
   - scope:
       path: "_pages/projects.md"
     values:
-      layout: "projects"
+      layout: "cards"
+  - scope:
+      path: "_pages/events.md"
+    values:
+      layout: "cards"
   - scope:
       path: "_pages/blog.md"
     values:

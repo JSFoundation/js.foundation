@@ -46,7 +46,7 @@ You do -- in _your_ space. If you'd like to hang out in _our_ spaces (as clarifi
 
 [Code of Conduct]: {{site.url}}/conduct/
 [contact us]: mailto:conduct@js.foundation
-[JS Foundation events]: http://events.jquery.org/
+[JS Foundation events]: {{site.url}}/events/
 [Ada Initiative's template]: http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy
 [conduct@js.foundation]: mailto:conduct@js.foundation
 [Reporting Guidelines]: {{site.url}}/conduct/reporting/

@@ -4,7 +4,7 @@
 	&_left-layout,
 	&_blog-layout,
 	&_post-layout,
-	&_projects-layout {
+	&_cards-layout {
 		background: #fff;
 		color: #343433;
 		min-height: calc( 100vh - 86px );
@@ -21,7 +21,7 @@
 	&_left-layout,
 	&_blog-layout,
 	&_post-layout,
-	&_projects-layout {
+	&_cards-layout {
 		@extend %content;
 		padding: 1rem;
 	}
@@ -36,7 +36,7 @@
 	&_center-layout,
 	&_left-layout,
 	&_blog-layout,
-	&_projects-layout {
+	&_cards-layout {
 		text-align: center;
 
 		&::after {
@@ -57,7 +57,7 @@
 .page-intro {
 	&_center-layout,
 	&_home-layout,
-	&_projects-layout {
+	&_cards-layout {
 		padding: 0 1rem 1.5rem;
 	}
 
@@ -65,7 +65,7 @@
 	&_home-layout,
 	&_left-layout,
 	&_blog-layout,
-	&_projects-layout {
+	&_cards-layout {
 		font-size: 1.125rem;
 		font-weight: 300;
 	}
@@ -161,12 +161,12 @@
 	font-weight: bold;
 }
 
-.project {
+.card {
 	box-sizing: border-box;
 	padding: 1rem;
 }
 
-.project-link {
+.card-link {
 	background: #eee;
 	box-sizing: border-box;
 	color: #555;
@@ -179,30 +179,30 @@
 		background: #ddd;
 		text-decoration: none;
 
-		& > .project-title {
+		& > .card-title {
 			border-color: #ccc;
 		}
 	}
 }
 
-.project-title {
+.card-title {
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 2rem;
 	padding-bottom: .5rem;
 	transition: border-color 150ms ease-out;
 }
 
-.project-logo-container {
+.card-logo-container {
 	min-height: 100px;
 	margin-bottom: 2rem;
 }
 
-.project-logo {
+.card-logo {
 	max-height: 100px;
 	width: auto;
 }
 
-.project-content {
+.card-content {
 	font-size: 1rem;
 }
 
@@ -312,7 +312,7 @@
 		&_left-layout,
 		&_blog-layout,
 		&_post-layout,
-		&_projects-layout {
+		&_cards-layout {
 			padding: 2rem;
 		}
 	}
@@ -320,12 +320,12 @@
 	.page-intro {
 		&_center-layout,
 		&_home-layout,
-		&_projects-layout {
+		&_cards-layout {
 			padding: 0 2rem 2rem;
 		}
 	}
 
-	.projects {
+	.cards {
 		// TODO vendor prefixes + old specs
 		align-content: flex-start;
 		align-items: stretch;
@@ -334,7 +334,7 @@
 		justify-content: space-between;
 	}
 
-	.project {
+	.card {
 		width: 50%;
 	}
 
@@ -363,7 +363,7 @@
 		&_left-layout,
 		&_blog-layout,
 		&_post-layout,
-		&_projects-layout {
+		&_cards-layout {
 			padding: 3rem;
 		}
 	}
@@ -400,7 +400,7 @@
 
 	.page-intro {
 		&_center-layout,
-		&_projects-layout {
+		&_cards-layout {
 			// TODO vendor prefixes
 			columns: 2;
 			column-gap: 3rem;
@@ -410,7 +410,7 @@
 		&_center-layout,
 		&_left-layout,
 		&_blog-layout,
-		&_projects-layout {
+		&_cards-layout {
 			& > p {
 				text-align: justify;
 			}
@@ -423,7 +423,7 @@
 
 		&_center-layout,
 		&_home-layout,
-		&_projects-layout {
+		&_cards-layout {
 			& > p {
 				overflow: hidden;
 				-webkit-column-break-inside: avoid;
@@ -454,7 +454,7 @@
 		@extend %left-layout;
 	}
 
-	.projects {
+	.cards {
 		// TODO only if needed
 		&::after {
 			content: '';
@@ -462,7 +462,7 @@
 		}
 	}
 
-	.project {
+	.card {
 		width: 33%;
 		width: calc( 100% / 3 );
 	}
