@@ -248,7 +248,16 @@
 	}
 }
 
+/* Home page */
+
+.home-tagline {
+	width: 500px;
+	max-width: 80%;
+	margin-bottom: .625rem;
+}
+
 /* Members page */
+
 .page_members .page-section_left-layout {
 	text-align: center;
 	padding-left: 1.5rem;
@@ -398,21 +407,18 @@
 			padding: 0 6rem 3rem;
 		}
 
-		&_home-layout {
-			padding: 0 6rem 3rem;
-		}
-
 		&_center-layout,
-		&_home-layout,
 		&_left-layout,
 		&_blog-layout,
 		&_projects-layout {
-			font-size: 1.125rem;
-			font-weight: 300;
-
 			& > p {
 				text-align: justify;
 			}
+		}
+
+		&_home-layout {
+			padding: 0 6rem 3rem;
+			font-size: 1.25rem;
 		}
 
 		&_center-layout,
