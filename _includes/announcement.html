@@ -1,0 +1,11 @@
+<article class="announcement">
+{% if include.img %}<a class="announcement-img-link" href="{{ include.url }}"><img class="announcement-img" src="{{ site.url }}/img/announcements/{{ include.img }}" alt="{{ include.title }}"></a>{% endif %}
+<header class="announcement-header">
+<p class="announcement-meta"><span class="announcement-date">{{ include.date }}</span></p>
+<h2 class="announcement-title"><a class="announcement-title-link" href="{{ include.url }}">{{ include.title }}</a></h2>
+</header>
+<div class="announcement-excerpt">
+{{ include.excerpt }}
+<a class="announcement-more-link" href="{{ include.url }}">Read more ...</a>
+</div>
+</article>

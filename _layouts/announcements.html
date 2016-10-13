@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+	{% include head.html %}
+
+	<body class="announcements-layout page_{{ page.title | slugify }}">
+
+		{% include header.html %}
+
+		<main class="main_announcements-layout">
+
+			<div class="main-content_announcements-layout">
+
+				<header class="page-header_announcements-layout">
+
+					<h1 class="page-title_announcements-layout">{{ page.title }}</h1>
+
+					{{ content }}
+
+				</header>
+
+				<div class="announcements">
+
+					{% assign announcements = site.announcements | sort: 'date' | reverse %}
+					{% for announcement in announcements %}
+						{% assign date = announcement.date | date: '%B %-d, %Y' %}
+						{% include announcement.html url=announcement.url title=announcement.title excerpt=announcement.excerpt img=announcement.img date=date %}
+					{% endfor %}
+
+				</div>
+
+			</div>
+
+		</main>
+
+		{% include footer.html %}
+
+		{% include offcanvas.html %}
+
+		{% include footer-scripts.html %}
+
+	</body>
+</html>

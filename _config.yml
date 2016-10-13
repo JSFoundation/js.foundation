@@ -28,8 +28,11 @@ sass:
 permalink: pretty
 
 collections:
-  - projects
-  - events
+  projects:
+  events:
+  announcements:
+    output: true
+    permalink: "/announcements/:year/:month/:day/:title/"
 
 defaults:
   - scope:
@@ -56,6 +59,15 @@ defaults:
       path: "_pages/events.md"
     values:
       layout: "cards"
+  - scope:
+      path: "_pages/announcements.md"
+    values:
+      layout: "announcements"
+  - scope:
+      path: ""
+      type: "announcements"
+    values:
+      layout: "announcement"
   - scope:
       path: "_pages/blog.md"
     values:
