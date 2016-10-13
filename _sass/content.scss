@@ -122,6 +122,11 @@
 	margin-bottom: 2rem;
 }
 
+.announcement-header,
+.post-header {
+	margin-bottom: 2.25rem;
+}
+
 .announcement-meta,
 .post-meta {
 	color: #999;
@@ -145,10 +150,20 @@
 .announcement-title,
 .post-title {
 	line-height: 1.3;
+	margin-bottom: 0;
 
 	&-link {
 		color: inherit;
 	}
+}
+
+.announcement-subtitle {
+	color: #999;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 1.3;
+	margin-top: .75rem;
 }
 
 .post-excerpt {
@@ -177,9 +192,23 @@
 	max-width: 44rem;
 }
 
+.page-header_post-layout {
+	margin-bottom: 3rem;
+}
+
 .page-title_post-layout {
 	font-weight: 700;
+	margin-bottom: 0;
 	text-transform: none;
+}
+
+.page-subtitle_post-layout {
+	color: #999;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 1.3;
+	margin-top: 1.5rem;
 }
 
 /* Cards */
@@ -326,6 +355,7 @@
 
 @media (min-width:50em) {
 	.main-content {
+		&_announcements-layout,
 		&_center-layout,
 		&_home-layout,
 		&_left-layout,
@@ -404,6 +434,7 @@
 
 @media (min-width:75em) {
 	.main-content {
+		&_announcements-layout,
 		&_center-layout,
 		&_home-layout,
 		&_left-layout,
@@ -437,6 +468,7 @@
 	}
 
 	.page-intro {
+		&_announcements-layout,
 		&_center-layout,
 		&_cards-layout {
 			// TODO vendor prefixes
@@ -445,6 +477,7 @@
 			padding: 0 6rem 3rem;
 		}
 
+		&_announcements-layout,
 		&_center-layout,
 		&_left-layout,
 		&_blog-layout,
@@ -459,8 +492,8 @@
 			font-size: 1.25rem;
 		}
 
+		&_announcements-layout,
 		&_center-layout,
-		&_home-layout,
 		&_cards-layout {
 			& > p {
 				overflow: hidden;

@@ -3,6 +3,7 @@
 <header class="announcement-header">
 <p class="announcement-meta"><span class="announcement-date">{{ include.date }}</span></p>
 <h2 class="announcement-title"><a class="announcement-title-link" href="{{ include.url }}">{{ include.title }}</a></h2>
+{% if include.subtitle %}<h3 class="announcement-subtitle">{{ include.subtitle }}</h3>{% endif %}
 </header>
 <div class="announcement-excerpt">
 {{ include.excerpt }}

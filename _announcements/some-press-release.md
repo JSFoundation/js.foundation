@@ -1,5 +1,6 @@
 ---
-title: "Some press release"
+title: "Suspendisse sagittis libero non turpis venenatis"
+subtitle: "Nam sed neque id ante luctus hendrerit"
 ---
 
 Here the press release content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies ante vel ante sodales dapibus. Nunc mollis vel enim nec aliquam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In et feugiat purus. Suspendisse at elit eget mauris pulvinar aliquam ut in risus. Integer elementum eu nisl a molestie. Morbi non congue enim, sit amet sodales dui. Duis rutrum hendrerit arcu, et lobortis lacus iaculis quis. Suspendisse sagittis libero non turpis venenatis, eu aliquam mi sollicitudin. Curabitur sit amet fringilla nisi.

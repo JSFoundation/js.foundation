@@ -17,6 +17,8 @@
 
 					<h1 class="page-title_post-layout">{{ page.title }}</h1>
 
+					{% if page.subtitle %}<h3 class="page-subtitle_post-layout">{{ page.subtitle }}</h3>{% endif %}
+
 					{% if page.img %}<img class="post-img" src="{{ site.url }}/img/announcements/{{ page.img }}" alt="{{ page.title }}">{% endif %}
 
 				</header>
