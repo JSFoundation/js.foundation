@@ -3,6 +3,7 @@ title: "Enforcement"
 parent_title: "Code of Conduct"
 permalink: "/conduct/enforcement/"
 split: "h3"
+footnote: "All content on this page is licensed under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/) license. ![Creative Commons Attribution 3.0](https://licensebuttons.net/l/by/3.0/88x31.png)"
 ---
 
 This is the enforcement manual followed by JS Foundation's Code of Conduct Committee. It's used when we respond to an issue to make sure we're consistent and fair. It should be considered an internal document, but we're publishing it publicly in the interest of transparency.

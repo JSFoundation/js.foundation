@@ -2,6 +2,7 @@
 title: "Code of Conduct"
 layout: "center"
 split: "h3"
+footnote: "All content on this page is licensed under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/) license. ![Creative Commons Attribution 3.0](https://licensebuttons.net/l/by/3.0/88x31.png)"
 ---
 
 Like the technical community as a whole, the various JS Foundation teams and communities are made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the mission - including mentorship, teaching, and connecting people.

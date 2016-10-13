@@ -51,4 +51,10 @@
 
 	</article>
 
+	{% if page.footnote %}
+		<aside class="page-footnote">
+			{{ page.footnote | markdownify }}
+		</aside>
+	{% endif %}
+
 </main>

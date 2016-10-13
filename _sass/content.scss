@@ -105,6 +105,15 @@
 	}
 }
 
+/* Footnote */
+
+.page-footnote {
+	@extend %content;
+	font-size: .9375rem;
+	padding: .5rem 1rem;
+	text-align: center;
+}
+
 /* Posts and announcements */
 
 .announcement,
@@ -390,6 +399,10 @@
 		}
 	}
 
+	.page-footnote {
+		padding: .5rem 2rem;
+	}
+
 	.announcement {
 		padding: 2rem 3rem;
 	}
@@ -551,6 +564,9 @@
 		}
 	}
 
+	.page-footnote {
+		padding: .5rem 3rem;
+	}
 
 	.posts {
 		float: left;

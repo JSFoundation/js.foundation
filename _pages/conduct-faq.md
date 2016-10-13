@@ -3,6 +3,7 @@ title: "FAQ"
 parent_title: "Code of Conduct"
 permalink: "/conduct/faq/"
 split: "h3"
+footnote: "All content on this page is licensed under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/) license. ![Creative Commons Attribution 3.0](https://licensebuttons.net/l/by/3.0/88x31.png)"
 ---
 
 This FAQ attempts to address common questions and concerns around the JS Foundation's [Code of Conduct][]. If you still have questions after reading it, please feel free to [contact us][].
