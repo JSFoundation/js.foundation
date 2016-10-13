@@ -1,5 +1,5 @@
 <article class="post">
-{% if include.img %}<a class="post-img-link" href="{{ include.url }}"><img class="post-img" src="{{ site.url }}/img/posts/{{ include.img }}" alt="{{ include.title }}"></a>{% endif %}
+{% if include.img %}<a class="post-img-link" href="{{ include.url }}"><img class="post-img" src="{{ site.url }}{{ site.baseurl }}/img/posts/{{ include.img }}" alt="{{ include.title }}"></a>{% endif %}
 <header class="post-header">
 <p class="post-meta"><span class="post-date">{{ include.date }}</span>{% if include.category %}<span class="post-category">{{ include.category }}</span>{% endif %}</p>
 <h2 class="post-title"><a class="post-title-link" href="{{ include.url }}">{{ include.title }}</a></h2>

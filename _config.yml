@@ -5,6 +5,7 @@ description: "The JS Foundation is a member supported non-profit trade associati
 keywords: "JS, Foundation, open source, JavaScript, jQuery"
 
 url: "https://js.foundation"
+baseurl: ""
 
 host: 0.0.0.0
 port: 4000

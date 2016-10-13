@@ -13,7 +13,7 @@
 
 				{% if subitem.href == page.url %}
 
-					<a class="page-parent-link" href="{{ site.url }}{{ parent_href }}"><svg class="page-parent-link-icon" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/></svg> {{ parent_title }}</a>
+					<a class="page-parent-link" href="{{ site.url }}{{ site.baseurl }}{{ parent_href }}"><svg class="page-parent-link-icon" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/></svg> {{ parent_title }}</a>
 
 					{% assign has_parent = true %}
 
@@ -28,7 +28,7 @@
 
 						{% if subsubitem.href == page.url %}
 
-							<a class="page-parent-link" href="{{ site.url }}{{ parent_href }}"><svg class="page-parent-link-icon" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/></svg> {{ parent_title }}</a>
+							<a class="page-parent-link" href="{{ site.url }}{{ site.baseurl }}{{ parent_href }}"><svg class="page-parent-link-icon" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/></svg> {{ parent_title }}</a>
 
 							{% assign has_parent = true %}
 

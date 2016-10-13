@@ -26,7 +26,7 @@ The JS Foundation uses a number of trademarks to identify itself, its projects, 
 	* RequireJS ™
 	* Globalize ™
 * The "Logo Marks"
-	* [JS Foundation Logo]({{ site.url }}/img/jsf-logo.png) ®
+	* [JS Foundation Logo]({{ site.url }}{{ site.baseurl }}/img/jsf-logo.png) ®
 	* [jQuery Logo](http://brand.jquery.org/resources/jquery-mark-light.gif) ®
 	* [jQuery Mobile Logo](http://brand.jquery.org/resources/jquerymobile-mark-light.gif) ®
 	* [jQuery UI Logo](http://brand.jquery.org/resources/jqueryui-mark-light.gif) ®

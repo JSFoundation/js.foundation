@@ -34,12 +34,12 @@ Each `h2` (`##`) heading on a page starts a new section. The text before the fir
 
 ### Links & Images
 
-You can have absolute URLs for internal links and images by prepending `{{ site.url }}`:
+You can have absolute URLs for internal links and images by prepending `{{ site.url }}`.
 
 ```
-<a href="{{ site.url }}/name-of-page/">Link to Name of Page</a>
+<a href="{{ site.url }}{{ site.baseurl }}/name-of-page/">Link to Name of Page</a>
 
-![Alt text of this image]({{ site.url }}/img/image.png)
+![Alt text of this image]({{ site.url }}{{ site.baseurl }}/img/image.png)
 ```
 
 ### Projects & Events

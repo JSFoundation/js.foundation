@@ -11,7 +11,7 @@
 
 				{% if item.href != null %}
 
-					<a class="{{ location }}-menu-link{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>
+					<a class="{{ location }}-menu-link{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ site.baseurl }}{{ item.href }}">{{ item.title }}</a>
 
 				{% else %}
 
@@ -24,7 +24,7 @@
 					{% for subitem in item.sub %}
 
 						<li class="{{ location }}-submenu-item">
-							<a class="{{ location }}-submenu-link{% if subitem.href == page.url %} current{% endif %}" href="{{ site.url }}{{ subitem.href }}">{{ subitem.title }}</a>
+							<a class="{{ location }}-submenu-link{% if subitem.href == page.url %} current{% endif %}" href="{{ site.url }}{{ site.baseurl }}{{ subitem.href }}">{{ subitem.title }}</a>
 						</li>
 
 					{% endfor %}
@@ -35,7 +35,7 @@
 		{% else %}
 
 			<li class="{{ location }}-menu-item">
-				<a class="{{ location }}-menu-link{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>
+				<a class="{{ location }}-menu-link{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ site.baseurl }}{{ item.href }}">{{ item.title }}</a>
 			</li>
 
 		{% endif %}
