@@ -62,7 +62,7 @@
 				<ul class="page-submenu">
 
 					{% for subitem in item.sub %}
-						<li class="page-submenu-item"><a class="page-submenu-link" href="{{ subitem.href }}">{{ subitem.title }}</a></li>
+						<li class="page-submenu-item"><a class="page-submenu-link" href="{{ site.url }}{{ site.baseurl }}{{ subitem.href }}">{{ subitem.title }}</a></li>
 					{% endfor %}
 
 				</ul>
@@ -80,7 +80,7 @@
 						<ul class="page-submenu">
 
 							{% for subsubitem in subitem.sub %}
-								<li class="page-submenu-item"><a class="page-submenu-link" href="{{ subsubitem.href }}">{{ subsubitem.title }}</a></li>
+								<li class="page-submenu-item"><a class="page-submenu-link" href="{{ site.url }}{{ site.baseurl }}{{ subsubitem.href }}">{{ subsubitem.title }}</a></li>
 							{% endfor %}
 
 						</ul>

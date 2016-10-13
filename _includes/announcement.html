@@ -1,12 +1,12 @@
 <article class="announcement">
-{% if include.img %}<a class="announcement-img-link" href="{{ include.url }}"><img class="announcement-img" src="{{ site.url }}{{ site.baseurl }}/img/announcements/{{ include.img }}" alt="{{ include.title }}"></a>{% endif %}
+{% if include.img %}<a class="announcement-img-link" href="{{ site.url }}{{ site.baseurl }}{{ include.url }}"><img class="announcement-img" src="{{ site.url }}{{ site.baseurl }}/img/announcements/{{ include.img }}" alt="{{ include.title }}"></a>{% endif %}
 <header class="announcement-header">
 <p class="announcement-meta"><span class="announcement-date">{{ include.date }}</span></p>
-<h2 class="announcement-title"><a class="announcement-title-link" href="{{ include.url }}">{{ include.title }}</a></h2>
+<h2 class="announcement-title"><a class="announcement-title-link" href="{{ site.url }}{{ site.baseurl }}{{ include.url }}">{{ include.title }}</a></h2>
 {% if include.subtitle %}<h3 class="announcement-subtitle">{{ include.subtitle }}</h3>{% endif %}
 </header>
 <div class="announcement-excerpt">
 {{ include.excerpt }}
-<a class="announcement-more-link" href="{{ include.url }}">Read more ...</a>
+<a class="announcement-more-link" href="{{ site.url }}{{ site.baseurl }}{{ include.url }}">Read more ...</a>
 </div>
 </article>
