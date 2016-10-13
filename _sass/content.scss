@@ -418,11 +418,26 @@
 	}
 
 	.cards {
-		// TODO vendor prefixes + old specs
+		-webkit-align-content: flex-start;
+		-ms-flex-line-pack: start;
 		align-content: flex-start;
+		-webkit-box-align: stretch;
+		-webkit-align-items: stretch;
+		-moz-box-align: stretch;
+		-ms-flex-align: stretch;
 		align-items: stretch;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
 		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		-moz-box-pack: justify;
+		-ms-flex-pack: justify;
 		justify-content: space-between;
 	}
 
@@ -476,8 +491,11 @@
 		&_announcements-layout,
 		&_center-layout,
 		&_cards-layout {
-			// TODO vendor prefixes
+			-webkit-columns: 2;
+			-moz-columns: 2;
 			columns: 2;
+			-webkit-column-gap: 3rem;
+			-moz-column-gap: 3rem;
 			column-gap: 3rem;
 			padding: 0 6rem 3rem;
 		}
@@ -547,6 +565,10 @@
 		// TODO only if needed
 		&::after {
 			content: '';
+			-webkit-box-flex: 1;
+			-webkit-flex: auto;
+			-moz-box-flex: 1;
+			-ms-flex: auto;
 			flex: auto;
 		}
 	}

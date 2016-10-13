@@ -1,6 +1,8 @@
 .header,
 .header_home-layout {
-	background-image: url('../img/header-bg.svg'),linear-gradient(to right, #6dc4f3, #0d6bb1 ); // TODO vendor prefixes + old specs ?
+	background-image: url("../img/header-bg.svg"), -webkit-gradient(linear, left top, right top, from(#6dc4f3), to(#0d6bb1));
+	background-image: url("../img/header-bg.svg"), -webkit-linear-gradient(left, #6dc4f3, #0d6bb1);
+	background-image: url("../img/header-bg.svg"), linear-gradient(to right, #6dc4f3, #0d6bb1);
 	background-repeat: no-repeat, repeat;
 	background-position: center, center;
 	background-size: cover, auto;
