@@ -37,7 +37,7 @@ Our intent is that anyone in the community can stand up for this Code, and direc
 
 Sadly, not everyone knows this.
 
-However, even if everyone were kind, compassionate, and familiar with codes of conduct, it would still be incumbent upon our community to publish our own. Maintaining a code of conduct forces us to consider and articulate what kind of community we want to be, and serves as a constant reminder to put our best foot forward. But most importantly, it serves as a signpost to people looking to join our community that we feel these values are important.
+However, even if everyone were kind, compassionate, and familiar with codes of conduct, it would still be incumbent upon our community to publish our own. Maintaining a Code of Conduct forces us to consider and articulate what kind of community we want to be, and serves as a constant reminder to put our best foot forward. But most importantly, it serves as a signpost to people looking to join our community that we feel these values are important.
 
 ### This is censorship! I have the right to say whatever I want!
 
