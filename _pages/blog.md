@@ -1,7 +1,6 @@
 ---
 title: Blog
 layout: "center"
-split: "h2"
 ---
 
 ## Coming Soon
