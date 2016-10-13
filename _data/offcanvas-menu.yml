@@ -23,9 +23,4 @@
   href: "/events/"
 
 - title: "News"
-  href: "/news/"
-  sub:
-    - title: "Announcements"
-      href: "/announcements/"
-    - title: "Blog"
-      href: "/blog/"
+  href: "/announcements/"
