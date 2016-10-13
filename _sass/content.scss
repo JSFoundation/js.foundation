@@ -66,10 +66,8 @@
 	&_left-layout,
 	&_blog-layout,
 	&_projects-layout {
-		& > p {
-			font-size: 1.125rem;
-			font-weight: 300;
-		}
+		font-size: 1.125rem;
+		font-weight: 300;
 	}
 }
 
@@ -154,10 +152,7 @@
 
 .post-excerpt {
 	box-sizing: border-box;
-
-	& > p {
-		font-size: 1rem;
-	}
+	font-size: 1rem;
 }
 
 .post-more-link {
@@ -207,7 +202,7 @@
 	width: auto;
 }
 
-.project-content > p {
+.project-content {
 	font-size: 1rem;
 }
 
@@ -412,9 +407,10 @@
 		&_left-layout,
 		&_blog-layout,
 		&_projects-layout {
+			font-size: 1.125rem;
+			font-weight: 300;
+
 			& > p {
-				font-size: 1.125rem;
-				font-weight: 300;
 				text-align: justify;
 			}
 		}
