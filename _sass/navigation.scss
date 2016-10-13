@@ -70,7 +70,6 @@ a.current {
 	max-width: 90%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	//-webkit-overflow-scrolling: touch;
 	position: absolute;
 	right: -20rem;
 	top: 0;
@@ -95,14 +94,25 @@ a.current {
 }
 
 .no-js .offcanvas {
+	background: #fff;
+	bottom: unset;
 	display: block;
-	// TODO unset styles
+	height: unset;
+	max-width: unset;
+	overflow-x: unset;
+	overflow-y: unset;
+	position: unset;
+	right: unset;
+	top: unset;
+	transition: unset;
+	width: unset;
+	z-index: unset;
 }
 
 .offcanvas-menu {
 	list-style: none;
 	margin: 0;
-	padding: 1.5rem 3rem;
+	padding: 2rem;
 
 	&-item {
 		border-bottom: 1px solid #eee;
@@ -189,7 +199,8 @@ a.current {
 .page-sub-nav-content {
 	@extend %clearfix;
 	@extend %content;
-	padding: 3rem 3rem 0;
+	padding: 2rem 1rem 0;
+	text-align: center;
 }
 
 %page-sub-nav-link {
@@ -208,8 +219,8 @@ a.current {
 
 .page-parent-link {
 	@extend %page-sub-nav-link;
-	display: block;
-	float: left;
+	display: inline-block;
+	margin-bottom: 2rem;
 
 	&-icon {
 		display: inline-block;
@@ -223,18 +234,33 @@ a.current {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	float: right;
 
 	&-item {
-		float: left;
-		margin: 0 0 0 1.5rem;
+		margin: 0 0 .5rem;
 	}
 
 	&-link {
 		@extend %page-sub-nav-link;
+	}
+}
 
-		&:hover,
-		&:focus {
+@media (min-width:50em) {
+	.page-sub-nav-content {
+		padding: 3rem 2rem 0;
+		text-align: unset;
+	}
+
+	.page-parent-link {
+		display: block;
+		float: left;
+	}
+
+	.page-submenu {
+		float: right;
+
+		&-item {
+			float: left;
+			margin: 0 0 0 1.5rem;
 		}
 	}
 }
@@ -267,5 +293,11 @@ a.current {
 				text-decoration: none;
 			}
 		}
+	}
+}
+
+@media (min-width:75em) {
+	.page-sub-nav-content {
+		padding: 3rem 3rem 0;
 	}
 }

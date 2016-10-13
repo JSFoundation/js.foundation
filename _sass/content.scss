@@ -25,7 +25,7 @@
 	&_post-layout,
 	&_cards-layout {
 		@extend %content;
-		padding: 1rem;
+		padding: 2rem 1rem;
 	}
 
 	&_left-layout,
@@ -214,8 +214,7 @@
 /* Cards */
 
 .card {
-	box-sizing: border-box;
-	padding: 1rem;
+	padding: .5rem 0;
 }
 
 .card-link {
@@ -224,7 +223,7 @@
 	color: #555;
 	display: block;
 	height: 100%;
-	padding: 1rem 2rem;
+	padding: 1rem 1.5rem;
 	transition: background 150ms ease-out;
 
 	&:hover {
@@ -428,7 +427,13 @@
 	}
 
 	.card {
+		box-sizing: border-box;
+		padding: 1rem;
 		width: 50%;
+
+		&-link {
+			padding: 1rem 2rem;
+		}
 	}
 }
 

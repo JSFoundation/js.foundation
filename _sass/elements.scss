@@ -9,6 +9,7 @@ html,
 body {
 	height: 100%;
 	background-color: #343433;
+	word-wrap: break-word;
 }
 
 body {
@@ -41,14 +42,14 @@ p {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 300;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	text-transform: uppercase;
 }
 
 h2 {
-	font-size: 2.25rem;
+	font-size: 1.625rem;
 	font-weight: 400;
 }
 
@@ -56,8 +57,26 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: 1.875rem;
+	font-size: 1.375rem;
 	font-weight: 400;
+}
+
+@media (min-width:50em) {
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 3rem;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 1.875rem;
+	}
 }
 
 hr {
