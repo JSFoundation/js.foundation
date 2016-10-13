@@ -21,6 +21,10 @@
 	& > p {
 		font-size: .9375rem;
 		margin-bottom: .125rem;
+
+		& >a {
+			color: lighten( #999, 20% );
+		}
 	}
 }
 
