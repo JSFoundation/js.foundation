@@ -10,13 +10,6 @@
 
 }
 
-@media (min-width:50em) {
-	.footer-content {
-		padding: 1.5rem 2rem;
-
-	}
-}
-
 .footer-legal {
 	& > p {
 		font-size: .9375rem;
@@ -30,7 +23,28 @@
 
 .footer-nav {
 	border-top: 1px solid #666;
+	margin-top: 1rem;
 	padding-top: 1rem;
+}
+
+.footer-social {
+	margin-top: 1rem;
+
+	&-link {
+		margin-right: .5rem;
+	}
+
+	&-icon {
+		height: 2.5rem;
+		width: 2.5rem;
+	}
+}
+
+@media (min-width:50em) {
+	.footer-content {
+		padding: 1.5rem 2rem;
+
+	}
 }
 
 @media (min-width:75em) {

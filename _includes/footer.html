@@ -15,13 +15,19 @@
 
 		</div>
 
-		<nav class="footer-nav">
+		<div class="footer-nav">
+			<nav>
+				<h3 class="a11y">Secondary navigation menu</h3>
 
-			<h3 class="a11y">Secondary navigation menu</h3>
+				{% include menu.html location="footer" %}
 
-			{% include menu.html location="footer" %}
+			</nav>
 
-		</nav>
+			<div class="footer-social">
+				<a class="footer-social-link" href="https://twitter.com/{{ site.twitter }}"><img class="footer-social-icon" src="{{ site.url }}/assets/img/twitter.svg" alt="Twitter"></a>
+				<a class="footer-social-link" href="https://github.com/{{ site.github }}"><img class="footer-social-icon" src="{{ site.url }}/assets/img/github.svg" alt="GitHub"></a>
+			</div>
+		</div>
 
 	</div>
 </footer>
