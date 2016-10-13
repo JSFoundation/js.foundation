@@ -1,6 +1,6 @@
 .header,
 .header_home-layout {
-	background-image: url('../img/header-bg.png'),linear-gradient(to right, #6dc4f3, #0d6bb1 ); // TODO vendor prefixes + old specs ?
+	background-image: url('../img/header-bg.svg'),linear-gradient(to right, #6dc4f3, #0d6bb1 ); // TODO vendor prefixes + old specs ?
 	background-repeat: no-repeat, repeat;
 	background-position: center, center;
 	background-size: cover, auto;
