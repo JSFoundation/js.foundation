@@ -1,0 +1,111 @@
+{% capture parent %}
+
+	{% assign has_parent = false %}
+
+	{% for item in site.data.sitemap %}
+
+		{% if item.sub != null %}
+
+			{% for subitem in item.sub %}
+
+				{% assign parent_title = item.title %}
+				{% assign parent_href = item.href %}
+
+				{% if subitem.href == page.url %}
+
+					<a class="page-parent-link" href="{{ site.url }}{{ parent_href }}"><svg class="page-parent-link-icon" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/></svg> {{ parent_title }}</a>
+
+					{% assign has_parent = true %}
+
+					{% break %}
+
+				{% else if subitem.sub != null %}
+
+					{% assign parent_title = subitem.title %}
+					{% assign parent_href = subitem.href %}
+
+					{% for subsubitem in subitem.sub %}
+
+						{% if subsubitem.href == page.url %}
+
+							<a class="page-parent-link" href="{{ site.url }}{{ parent_href }}"><svg class="page-parent-link-icon" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/></svg> {{ parent_title }}</a>
+
+							{% assign has_parent = true %}
+
+							{% break %}
+
+						{% endif %}
+
+					{% endfor %}
+
+				{% endif %}
+
+			{% endfor %}
+
+		{% endif %}
+
+	{% endfor %}
+
+{% endcapture %}
+
+
+{% capture children %}
+
+	{% assign has_children = false %}
+
+	{% for item in site.data.sitemap %}
+
+		{% if item.sub != null %}
+
+			{% if item.href == page.url %}
+
+				<ul class="page-submenu">
+
+					{% for subitem in item.sub %}
+						<li class="page-submenu-item"><a class="page-submenu-link" href="{{ subitem.href }}">{{ subitem.title }}</a></li>
+					{% endfor %}
+
+				</ul>
+
+				{% assign has_children = true %}
+
+				{% break %}
+
+			{% else %}
+
+				{% for subitem in item.sub %}
+
+					{% if subitem.href == page.url %}
+
+						<ul class="page-submenu">
+
+							{% for subsubitem in subitem.sub %}
+								<li class="page-submenu-item"><a class="page-submenu-link" href="{{ subsubitem.href }}">{{ subsubitem.title }}</a></li>
+							{% endfor %}
+
+						</ul>
+
+						{% assign has_children = true %}
+
+						{% break %}
+
+					{% endif %}
+
+				{% endfor %}
+
+			{% endif %}
+
+		{% endif %}
+
+	{% endfor %}
+
+{% endcapture %}
+
+{% if has_parent or has_children %}
+<nav class="page-sub-nav">
+	<div class="page-sub-nav-content">
+		{{ parent }}
+		{{ children }}
+	</div>
+</nav>
+{% endif %}

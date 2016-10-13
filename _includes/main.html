@@ -4,70 +4,24 @@
 	{% assign suffix = "" %}
 {% endif %}
 
+{% if page.split %}
+	{% assign split_tag = page.split | prepend: "<" %}
+{% else %}
+	{% assign split_tag = "<h2" %}
+{% endif %}
+
+{% assign sections = content | markdownify | split: split_tag %}
+
 <main class="main{{ suffix }}">
 
+	{% include subnav.html %}
+
 	<article class="main-content{{ suffix }}">
-
-		{% if page.split %}
-			{% assign split_tag = page.split | prepend: "<" %}
-		{% else %}
-			{% assign split_tag = "<h2" %}
-		{% endif %}
-
-		{% assign sections = content | markdownify | split: split_tag %}
 
 		<header class="page-header{{ suffix }}">
 
 			{% if page.title %}
 				<h1 class="page-title{{ suffix }}">{{ page.title }}</h1>
-			{% endif %}
-
-			{% if page.submenu %}
-				<nav class="page-sub-nav{{ suffix }}">
-					<ul class="page-submenu{{ suffix }}">
-
-						{% for item in site.data[ page.submenu ] %}
-
-							{% if item.sub != null %}
-
-								{% if item.href != page.url %}
-
-									<li class="page-submenu-item{{ suffix }}">
-
-										{% if item.href != null %}
-
-											<a class="page-submenu-link{{ suffix }}{% if item.href == page.url %} current{% endif %}" href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>
-
-										{% else %}
-
-											{{ item.title }}
-
-										{% endif %}
-
-										<ul class="page-submenu-submenu{{ suffix }}">
-
-								{% endif %}
-
-											{% for subitem in item.sub %}
-												<li class="page-submenu-submenu-item{{ suffix }}">
-													<a class="page-submenu-submenu-link{{ suffix }}{% if subitem.subhref == page.url %} current{% endif %}" href="{{ site.url }}{{ subitem.subhref }}">{{ subitem.subtitle }}</a>
-												</li>
-
-											{% endfor %}
-
-								{% if item.href != page.url %}
-
-										</ul>
-									</li>
-
-								{% endif %}
-
-							{% endif %}
-
-						{% endfor %}
-
-					</ul>
-				</nav>
 			{% endif %}
 
 			{% if sections.first != '' and sections.size != 1 %}

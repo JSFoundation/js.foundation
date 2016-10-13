@@ -2,7 +2,6 @@
 title: "Enforcement"
 parent_title: "Code of Conduct"
 permalink: "/conduct/enforcement/"
-submenu: "conduct-menu"
 split: "h3"
 ---
 

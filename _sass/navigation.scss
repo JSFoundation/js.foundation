@@ -72,10 +72,10 @@ a.current {
 	overflow-y: auto;
 	//-webkit-overflow-scrolling: touch;
 	position: absolute;
-	right: -24rem;
+	right: -20rem;
 	top: 0;
-	transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
-	width: 24rem;
+	transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+	width: 20rem;
 	z-index: 9999;
 
 	&.is-hidden {
@@ -85,7 +85,7 @@ a.current {
 
 .csstransforms .offcanvas-nav {
 	right: 0;
-	transform: translateX(24rem);
+	transform: translateX(20rem);
 }
 
 .offcanvas-nav.is-expanded {
@@ -165,7 +165,7 @@ a.current {
 	padding: 0;
 
 	&-item {
-		font-size: .9375rem;
+		font-size: .875rem;
 		margin: 0 0 .5rem;
 	}
 
@@ -186,55 +186,56 @@ a.current {
 	}
 }
 
-.page-submenu,
-.page-submenu-submenu {
-	&_center-layout,
-	&_left-layout {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		text-align: center;
+.page-sub-nav-content {
+	@extend %clearfix;
+	@extend %content;
+	padding: 3rem 3rem 0;
+}
+
+%page-sub-nav-link {
+	color: #53a5da;
+	font-size: .8125rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: color 150ms ease-out;
+
+	&:hover,
+	&:focus {
+		color: darken( #53a5da, 20% );
+		text-decoration: none;
 	}
+}
+
+.page-parent-link {
+	@extend %page-sub-nav-link;
+	display: block;
+	float: left;
+
+	&-icon {
+		display: inline-block;
+		fill: currentColor;
+		height: 1.5rem;
+		width: 1.5rem;
+	}
+}
+
+.page-submenu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
 
 	&-item {
-		&_center-layout,
-		&_left-layout {
-			font-size: .875rem;
-			margin-bottom: 1.5rem;
-		}
+		float: left;
+		margin: 0 0 0 1.5rem;
 	}
 
 	&-link {
-		&_center-layout,
-		&_left-layout {
-			text-transform: uppercase;
-			transition: color 150ms ease-out;
+		@extend %page-sub-nav-link;
 
-			&:hover,
-			&:focus {
-				color: darken( #ff2b6e, 20% );
-				text-decoration: none;
-			}
-
-			&.current {
-				color: darken( #ff2b6e, 20% );
-			}
+		&:hover,
+		&:focus {
 		}
-	}
-}
-
-.page-submenu-submenu {
-	&_center-layout,
-	&_left-layout {
-		margin-top: 1rem;
-	}
-}
-
-.page-submenu-link {
-	&_center-layout,
-	&_left-layout {
-		font-size: .9375rem;
-		font-weight: 700;
 	}
 }
 
@@ -260,29 +261,10 @@ a.current {
 			transition: color 150ms ease-out;
 
 			&:hover,
+			&:focus,
 			&.current {
 				color: #abe2ff;
 				text-decoration: none;
-			}
-		}
-	}
-}
-
-@media (min-width:75em) {
-	.page-submenu,
-	.page-submenu-submenu {
-		&_left-layout {
-			text-align: left;
-		}
-
-		&-item {
-			&_left-layout {
-				margin-bottom: .5rem;
-			}
-
-			&_center-layout {
-				display: inline-block;
-				margin: 0 1.5rem;
 			}
 		}
 	}

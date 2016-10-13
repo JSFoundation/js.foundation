@@ -1,7 +1,6 @@
 ---
 title: "Code of Conduct"
 layout: "center"
-submenu: "conduct-menu"
 split: "h3"
 ---
 

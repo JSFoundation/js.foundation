@@ -24,7 +24,7 @@
 					{% for subitem in item.sub %}
 
 						<li class="{{ location }}-submenu-item">
-							<a class="{{ location }}-submenu-link{% if subitem.subhref == page.url %} current{% endif %}" href="{{ site.url }}{{ subitem.subhref }}">{{ subitem.subtitle }}</a>
+							<a class="{{ location }}-submenu-link{% if subitem.href == page.url %} current{% endif %}" href="{{ site.url }}{{ subitem.href }}">{{ subitem.title }}</a>
 						</li>
 
 					{% endfor %}

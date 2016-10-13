@@ -2,7 +2,6 @@
 title: "Reporting"
 parent_title: "Code of Conduct"
 permalink: "/conduct/reporting/"
-submenu: "conduct-menu"
 split: "h3"
 ---
 

@@ -42,28 +42,6 @@ You can have absolute URLs for internal links and images by prepending `{{ site.
 ![Alt text of this image]({{ site.url }}/img/image.png)
 ```
 
-### Subpages
-
-The file name and location (in a subfolder or not) of subpages doesn't matter. The only requirement is that `permalink` is defined in the front matter and the permalink structure defines the page as subpage of its parent.
-
-Use `parent_title` to include the parent page title in the `title` attribute ("Child Title | Parent Title | Site Title") and to display it above the (child) page title.
-
-`parent-page.md` front matter:
-```
----
-title: "I am a parent"
----
-```
-
-`parent-page-child.md` front matter:
-```
----
-title: "I am a child"
-parent_title: "I am a parent"
-permalink: "/parent-page/child/"
----
-```
-
 ### Projects & Events
 
 Projects and Events are collections that use the "card" layout. Each item should be added as an `.md` file in the `_[collection-name]` folder. The "Front Matter" of this file should contain `name`, `site`, and `logo`. The logo file has to be in the `img/[collection-name]/` folder.

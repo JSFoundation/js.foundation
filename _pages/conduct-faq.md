@@ -2,7 +2,6 @@
 title: "FAQ"
 parent_title: "Code of Conduct"
 permalink: "/conduct/faq/"
-submenu: "conduct-menu"
 split: "h3"
 ---
 
