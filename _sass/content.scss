@@ -81,7 +81,7 @@
 	&_center-layout {
 		background: #eee;
 		color: #555;
-		padding: 1.5rem 6rem;
+		padding: .5rem 1rem;
 	}
 }
 
@@ -96,15 +96,15 @@
 	&_left-layout {
 		background: #eee;
 		color: #555;
-		margin-bottom: 3rem;
-		padding: 3rem 6rem;
+		margin-bottom: 1rem;
+		padding: 1rem;
 	}
 
 	&_center-layout {
 		border-bottom: 1px solid #ddd;
 		margin: 0 auto;
 		max-width: 44rem;
-		padding: 1.5rem 0;
+		padding: .5rem 0;
 
 		&:last-child {
 			border: 0;
@@ -351,6 +351,23 @@
 		}
 	}
 
+	.page-sections {
+		&_center-layout {
+			padding: 1rem 1.5rem;
+		}
+	}
+
+	.page-section {
+		&_left-layout {
+			margin-bottom: 2rem;
+			padding: 2rem 3rem;
+		}
+
+		&_center-layout {
+			padding: 1rem 1.5rem;
+		}
+	}
+
 	.announcement {
 		padding: 2rem 3rem;
 	}
@@ -475,7 +492,7 @@
 
 	.page-sections {
 		&_center-layout {
-			padding: 1.5rem 6rem;
+			padding: 1.5rem 3rem;
 		}
 
 		&_left-layout {
@@ -483,6 +500,18 @@
 			width: 67%;
 		}
 	}
+
+	.page-section {
+		&_left-layout {
+			margin-bottom: 3rem;
+			padding: 3rem 6rem;
+		}
+
+		&_center-layout {
+			padding: 1.5rem 3rem;
+		}
+	}
+
 
 	.posts {
 		float: left;
