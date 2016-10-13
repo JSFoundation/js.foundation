@@ -396,11 +396,14 @@
 
 	.page-intro {
 		&_center-layout,
-		&_home-layout,
 		&_projects-layout {
 			// TODO vendor prefixes
 			columns: 2;
 			column-gap: 3rem;
+			padding: 0 6rem 3rem;
+		}
+
+		&_home-layout {
 			padding: 0 6rem 3rem;
 		}
 

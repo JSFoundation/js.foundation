@@ -2,38 +2,25 @@
 title: "About"
 ---
 
-## Vision Statement
-
-A world in which all web content is built on open standards and is accessible to all users.
+Developers rely on a growing portfolio of open source technologies to create, test and deploy critical applications. By creating a center of gravity for the open source JavaScript ecosystem, the JS Foundation's mission is to drive broad adoption and ongoing development of key JavaScript solutions and related technologies and to facilitate collaboration within the JavaScript development community to ensure those projects maintain the quality and diverse contribution bases that provide for long-term sustainability.
 
 
-## Mission Statement
+## Open
 
-To improve the open web, making it accessible for everyone, through the development and support of open source software, and collaboration with the development community.
+Open standards are publicly available and free to implement without ever having to worry about royalties and are vital to the future of application development.
 
-
-### An open web
-
-We believe that open standards are important for the future of the web. Open standards are publicly available and free to implement without ever having to worry about royalties.
-
-Foundation projects encourage adoption of open standards and implement tools to help developers apply those standards.
-
-You can read more about the [Open Web Platform][] as defined by the W3C or Tantek Çelik’s definition of the [Open Web][].
+JS Foundation projects encourage adoption of open standards and implement tools to help developers apply those standards.
 
 
-### An accessible web
+## Accessible
 
 We believe that everyone should be able to access the vast content available on the web. This includes anyone with physical, mental, cognitive, or technological disabilities that make it more difficult to use the Internet. Content should be usable by people with poor network connections, slow or old devices, and assistive technologies.
 
-Foundation projects emphasize the importance of an accessible web to developers to facilitate the creation of accessible content and applications.
+JS Foundation projects emphasize the importance of accessibility to developers to facilitate the creation of accessible content and applications.
 
 
-### Collaboration with the development community
+## Sustainable
 
-* Working with standards bodies, such as W3C, WHATWG, and TC39, to build the open standards that browser vendors and developers rely on.
-* Working with individuals and organizations to implement libraries, frameworks and tools for web developers.
-* Building, maintaining and documenting our own JavaScript projects, to help developers build accessible web content.
-* Sharing the knowledge about all of the above, by organizing events, recommending good practices in our documentation, and supporting our online communities, through forums, IRC and GitHub.
+Open source projects are a key part to the development tool chain and are the basis for many other projects, applications and products that developers and organizations depend on. Ensuring that those key projects in the JavaScript space are supported and maintained for the long term means these developers and organizations can trust that those dependencies will be there when they need them.
 
-[Open Web Platform]: http://www.w3.org/wiki/Open_Web_Platform
-[Open Web]: http://tantek.com/2010/281/b1/what-is-the-open-web
+The JS Foundation provides the guidance and support necessary to ensure growing and diverse contributor bases that will deliver high quality, long-lived open source projects.
