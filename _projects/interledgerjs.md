@@ -1,6 +1,6 @@
 ---
 name: "Interledger.js"
-site: "http://interledgerjs.org"
+site: "https://interledger.org"
 logo: "interledgerjs.svg"
 ---
 
