@@ -5,7 +5,7 @@
 When running `jekyll serve` locally load the additional development config file to set the site URL to `http://localhost:4000`:
 
 ```
-$ bundle exec jekyll serve --config _config.yml,_config_dev.yml
+$ jekyll serve --config _config.yml,_config_dev.yml
 ```
 
 ## Content
