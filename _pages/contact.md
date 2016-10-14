@@ -11,7 +11,7 @@ The JS Foundation is always interested in hearing from our community, supporters
 [info@js.foundation][]
 
 **License & CLA Support:**  
-[license@js.foundation][]
+[legal@js.foundation][]
 
 **Media:**  
 [media@js.foundation][]
@@ -27,7 +27,7 @@ You can also follow what's happening at the JS Foundation on [Twitter][], [GitHu
 
 [conduct@js.foundation]: mailto:conduct@js.foundation
 [info@js.foundation]: mailto:info@js.foundation
-[license@js.foundation]: mailto:license@js.foundation
+[license@js.foundation]: mailto:legal@js.foundation
 [media@js.foundation]: mailto:media@js.foundation
 [membership@js.foundation]: mailto:membership@js.foundation
 [projects@js.foundation]: mailto:projects@js.foundation
