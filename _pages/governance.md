@@ -8,9 +8,8 @@ The JS Foundation is governed by two branches which separate business and techni
 
 The Board of Directors (BoD) serves as the business guiding branch of governance and as such, they tackle tasks and decisions involving topics like marketing, legal, fundraising, and other business driving topics. They also define the strategic direction for the Foundation and set policies and procedures to enable the Foundation to work toward those strategic goals. The BoD also appoints officers who handle the administrative functions of the board such as scheduling and presiding over meetings (President), taking of minutes (Secretary), budgetary oversight (Treasurer) and other functions as necessary.
 
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="John Doe" title="President" %}
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="Jane Doe" title="Secretary" %}
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="John Doe" title="Treasurer" %}
+{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="Jiyon Han" title="" %}
+{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="Andy Smith" title="" %}
 
 ## Staff
 
@@ -21,8 +20,3 @@ The Board also appoints an Executive Director (ED) to run the Foundation on a da
 ## Technical Advisory Committee
 
 The Technical Advisory Committee (TAC) is responsible for ensuring collaboration is the driving principle within the JS Foundation, it's Projects, between JS Foundation Projects, and between JS Foundation Projects and the broader community. The TAC is also responsible for admitting new projects to the mentorship program as well as graduating projects from the mentorship program. The TAC will serve as the JS Foundation's primary technical liaison body with external open source projects, consortiums and groups and is also responsible for technical participation in standards bodies. The TAC Chair sits on the Board of Directors and provides a conduit for communication between the business and technical governing bodies within the JS Foundation.
-
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="TBD" %}
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="TBD" %}
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="TBD" %}
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="TBD" %}
