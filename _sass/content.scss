@@ -288,7 +288,8 @@
 	}
 
 	&-name,
-	&-title {
+	&-title,
+	&-company {
 		margin-bottom: 0;
 	}
 
@@ -300,6 +301,13 @@
 	&-title {
 		color: #757575;
 		font-size: .675rem;
+		text-transform: uppercase;
+	}
+
+	&-company {
+		color: inherit;
+		font-weight: bold;
+		font-size: .75rem;
 		text-transform: uppercase;
 	}
 }

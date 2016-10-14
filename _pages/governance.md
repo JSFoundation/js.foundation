@@ -8,9 +8,6 @@ The JS Foundation is governed by two branches which separate business and techni
 
 The Board of Directors (BoD) serves as the business guiding branch of governance and as such, they tackle tasks and decisions involving topics like marketing, legal, fundraising, and other business driving topics. They also define the strategic direction for the Foundation and set policies and procedures to enable the Foundation to work toward those strategic goals. The BoD also appoints officers who handle the administrative functions of the board such as scheduling and presiding over meetings (President), taking of minutes (Secretary), budgetary oversight (Treasurer) and other functions as necessary.
 
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="Jiyon Han" title="" %}
-{% include avatar.html src="https://secure.gravatar.com/avatar/xxx?size=120&d=mm" name="Andy Smith" title="" %}
-
 ## Staff
 
 The Board also appoints an Executive Director (ED) to run the Foundation on a day-to-day basis. The ED is tasked with contributing to the strategic initiatives set out by the Board, implementing those initiatives and then reporting back on their success. The ED has the authority, within the boundaries of the current budget, to hire staff and contractors or partner with other organizations to advance the Foundation toward its goals. The ED reports to the President of the Board with additional oversight and input from the full Board.

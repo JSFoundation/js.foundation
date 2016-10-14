@@ -1,7 +1,10 @@
 <div class="avatar">
 <img class="avatar-img" src="{{ include.src }}" alt="{{ include.name }}">
 <h3 class="avatar-name">{{ include.name }}</h3>
+{% if include.company %}
+<h4 class="avatar-company">{{ include.company }}</h4>
+{% endif %}
 {% if include.title %}
-<h4 class="avatar-title">{{ include.title }}</h4>
+<h5 class="avatar-title">{{ include.title }}</h5>
 {% endif %}
 </div>
