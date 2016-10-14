@@ -23,7 +23,7 @@ The JS Foundation is always interested in hearing from our community, supporters
 [projects@js.foundation][]
 
 
-You can also follow what's happening at the JS Foundation on [Twitter][], [GitHub][] and the [JS Foundation Blog][].
+You can also follow what's happening at the JS Foundation on [Twitter][], [GitHub][] and the [JS Foundation News][] site.
 
 [conduct@js.foundation]: mailto:conduct@js.foundation
 [info@js.foundation]: mailto:info@js.foundation
@@ -33,4 +33,4 @@ You can also follow what's happening at the JS Foundation on [Twitter][], [GitHu
 [projects@js.foundation]: mailto:projects@js.foundation
 [Twitter]: https://twitter.com/the_jsf
 [GitHub]: https://github.com/jsfoundation
-[JS Foundation Blog]: https://blog.js.foundation
+[JS Foundation News]: {{ site.url }}{{ site.baseurl }}/announcements/
