@@ -14,7 +14,7 @@ This only applies to material changes; changes that don't affect the intent (typ
 ## Changelog
 
 **Aug 19, 2015**<br>
-[Initial draft modified from Django Project](https://github.com/jquery-foundation/jquery.org/pull/105)
+[Initial draft modified from Django Project](https://github.com/jquery/jquery.org/pull/105)
 
 [js.foundation repository on GitHub]: https://github.com/jsfoundation/js.foundation
 [conduct committee]: {{site.url}}/conduct/committee/
