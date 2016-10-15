@@ -1,0 +1,25 @@
+	{% capture parent %}
+		{% assign has_parent = false %}
+		{% for item in site.data.sitemap %}
+			{% if item.sub != null %}
+				{% for subitem in item.sub %}
+					{% assign parent_title = item.title %}
+					{% if subitem.href == page.url %}
+						{{ parent_title }} |
+						{% assign has_parent = true %}
+						{% break %}
+					{% else if subitem.sub != null %}
+						{% assign parent_title = subitem.title %}
+						{% for subsubitem in subitem.sub %}
+							{% if subsubitem.href == page.url %}
+								{{ parent_title }} |
+								{% assign has_parent = true %}
+								{% break %}
+							{% endif %}
+						{% endfor %}
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+	{% endcapture %}
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{% if has_parent and page.title %}{{ parent }}{% endif %}{{ site.title }}</title>
