@@ -26,16 +26,16 @@ The JS Foundation uses a number of trademarks to identify itself, its projects, 
 	* RequireJS ™
 	* Globalize ™
 * The "Logo Marks"
-	* [JS Foundation Logo]({{ site.url }}{{ site.baseurl }}/img/jsf-logo.png) ®
-	* [jQuery Logo](http://brand.jquery.org/resources/jquery-mark-light.gif) ®
-	* [jQuery Mobile Logo](http://brand.jquery.org/resources/jquerymobile-mark-light.gif) ®
-	* [jQuery UI Logo](http://brand.jquery.org/resources/jqueryui-mark-light.gif) ®
-	* [QUnit Logo](http://brand.jquery.org/resources/qunit-mark-light.gif) ®
-	* [Sizzle Logo](http://brand.jquery.org/resources/sizzle-mark-light.gif) ®
-	* [jQuery Developer Summit Logo](http://brand.jquery.org/resources/jquery-dev-summit-mark.gif) ™
-	* [Lodash Logo](http://brand.jquery.org/resources/lodash.png) ™
-	* [RequireJS Logo](http://brand.jquery.org/resources/requirejs.png) ™
-	* [Globalize Logo](http://brand.jquery.org/resources/globalize-mark-light.gif) ™
+	* [JS Foundation Logo]({{ site.url }}{{ site.baseurl }}/assets/img/jsf-logo.png) ®
+	* [jQuery Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/jquery-logo.png) ®
+	* [jQuery Mobile Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/jquery-mobile-logo.png) ®
+	* [jQuery UI Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/jquery-ui-logo.png) ®
+	* [QUnit Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/qunit-logo.png) ®
+	* [Sizzle Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/sizzle-logo.png) ®
+	* [jQuery Developer Summit Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/jquery-developer-summit-logo.png) ™
+	* [Lodash Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/lodash-logo.png) ™
+	* [RequireJS Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/requirejs-logo.png) ™
+	* [Globalize Logo]({{ site.url }}{{ site.baseurl }}/img/trademarks/globalize-logo.png) ™
 
 These marks, whether formally registered with the United States Patent and Trademark Office or not, are all the exclusive property of the JS Foundation, and their use is subject to this policy and the [Brand Guide](http://brand.jquery.org). Any exceptions to this policy or the Brand Guide must be approved in writing by the Foundation.
 
