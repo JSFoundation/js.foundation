@@ -17,7 +17,9 @@ body {
 	margin: 0;
 
 	&.has-offcanvas {
-		overflow: hidden;
+	    position: fixed;
+	    overflow-y: scroll;
+	    width: 100%;
 	}
 }
 
