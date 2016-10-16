@@ -467,6 +467,7 @@
 		box-sizing: border-box;
 		padding: 1rem;
 		width: 50%;
+		-ms-flex: 0 1 auto;
 
 		&-link {
 			padding: 1rem 2rem;
@@ -599,7 +600,6 @@
 	}
 
 	.card {
-		width: 33%;
-		width: calc( 100% / 3 );
+		width: 33.3%;
 	}
 }
