@@ -41,8 +41,6 @@ a.current {
 }
 
 .offcanvas-nav-control {
-	float: left;
-
 	&:hover,
 	&:focus {
 		color: #abe2ff;
@@ -267,6 +265,10 @@ a.current {
 }
 
 @media (min-width:60em) {
+	.offcanvas-nav-control {
+		float: left;
+	}
+
 	.header-menu {
 		display: block;
 		float: left;

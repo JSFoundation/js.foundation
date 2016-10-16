@@ -45,7 +45,14 @@
 	margin-top: -1rem;
 	position: absolute;
 	right: 1rem;
-	top: 43px;
+	top: 24px;
+}
+
+@media (min-width:358px) {
+	.header-nav,
+	.header-nav_home-layout {
+		top: 43px;
+	}
 }
 
 .home-title {
