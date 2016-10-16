@@ -2,12 +2,12 @@
 title: "About"
 ---
 
-Developers rely on a growing portfolio of open source technologies to create, test and deploy critical applications. By creating a center of gravity for the open source JavaScript ecosystem, the JS Foundation's mission is to drive broad adoption and ongoing development of key JavaScript solutions and related technologies and to facilitate collaboration within the JavaScript development community to ensure those projects maintain the quality and diverse contribution bases that provide for long-term sustainability.
+Developers rely on a growing portfolio of open source technologies to create, test and deploy critical applications. By creating a center of gravity for the open source JavaScript ecosystem, the JS Foundation's mission is to drive broad adoption and ongoing development of key JavaScript solutions and related technologies. The JS Foundation will also work to facilitate collaboration within the JavaScript development community to ensure those projects maintain the quality and diverse contribution bases that provide for long-term sustainability.
 
 
 ## Open
 
-Open standards are publicly available and free to implement without ever having to worry about royalties and are vital to the future of application development.
+Open standards are publicly available and free to implement and are vital to the future of application development.
 
 JS Foundation projects encourage adoption of open standards and implement tools to help developers apply those standards.
 
