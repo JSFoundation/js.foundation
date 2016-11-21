@@ -19,7 +19,7 @@ These are the current members of the JS Foundation and if you are interested in 
 {% include member.html name="Sense Tecnic Systems" logo="sense-tecnic.svg" site="http://sensetecnic.com" %}
 {% include member.html name="SitePen" logo="sitepen.svg" site="https://sitepen.com" %}
 {% include member.html name="StackPath" logo="stackpath.svg" site="https://stackpath.com" %}
-{% include member.html name="WebsiteSetup" logo="website-setup.svg" site="http://websitesetup.org" %}
+{% include member.html name="WebsiteSetup" logo="website-setup.svg" site="https://websitesetup.org" %}
 
 ## Associate
 
