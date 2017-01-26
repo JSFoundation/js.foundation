@@ -5,7 +5,9 @@ split: "h3"
 footnote: "All content on this page is licensed under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/) license. ![Creative Commons Attribution 3.0](https://licensebuttons.net/l/by/3.0/88x31.png)"
 ---
 
-If you believe someone is violating the Code of Conduct we ask that you report it to the JS Foundation by emailing [conduct@js.foundation][]. **All reports will be kept confidential.** In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
+If you believe someone is violating the Code of Conduct we ask that you report it to the JS Foundation by emailing [conduct@js.foundation][]. **All reports will be kept confidential.** This isn't a public list and only [members](Committee.md) of the advisory committee will receive the report.
+
+In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
 ### If you believe anyone is in physical danger, please notify appropriate law enforcement first
 
