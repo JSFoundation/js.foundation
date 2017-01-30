@@ -1,6 +1,6 @@
 ---
 name: "Jed"
-site: "https://slexaxton.github.io/Jed/"
+site: "http://messageformat.github.io/Jed/"
 logo: "jed.png"
 ---
 
