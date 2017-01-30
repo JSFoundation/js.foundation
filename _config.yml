@@ -10,7 +10,7 @@ baseurl: ""
 host: 0.0.0.0
 port: 4000
 safe: true
-timezone: Europe/London
+timezone: US/Pacific
 
 include:
   - _pages

@@ -3,24 +3,27 @@
 
 	{% include head.html %}
 
-	<body class="blog-layout page_{{ page.title | slugify }}">
+	<body class="announcements-layout page_{{ page.title | slugify }}">
 
 		{% include header.html %}
 
-		<main class="main_blog-layout">
+		<main class="main_announcements-layout">
 
-			<div class="main-content_blog-layout">
+			{% include subnav.html %}
 
-				<header class="page-header_blog-layout">
+			<div class="main-content_announcements-layout">
 
-					<h1 class="page-title_blog-layout">{{ page.title }}</h1>
+				<header class="page-header_announcements-layout">
+
+					<h1 class="page-title_announcements-layout">{{ page.title }}</h1>
 
 					{{ content }}
 
 				</header>
 
-				<div class="posts">
+				<div class="announcements">
 
+					{% assign posts = site.posts | sort: 'date' | reverse %}
 					{% for post in site.posts %}
 						{% assign date = post.date | date: '%B %-d, %Y' %}
 						{% include post.html url=post.url title=post.title excerpt=post.excerpt img=post.img date=date category=post.category %}
