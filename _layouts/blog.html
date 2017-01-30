@@ -24,9 +24,9 @@
 				<div class="announcements">
 
 					{% assign posts = site.posts | sort: 'date' | reverse %}
-					{% for post in site.posts %}
+					{% for post in posts %}
 						{% assign date = post.date | date: '%B %-d, %Y' %}
-						{% include post.html url=post.url title=post.title excerpt=post.excerpt img=post.img date=date category=post.category %}
+						{% include post.html url=post.url title=post.title author=post.author excerpt=post.excerpt img=post.img date=date category=post.category %}
 					{% endfor %}
 
 				</div>
