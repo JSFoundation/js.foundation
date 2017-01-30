@@ -13,6 +13,9 @@ Committee Members:
 * Sarah Frisk
 * John Resig
 * Adam Sontag
+* Kris Borchers (JS Foundation Staff Representative)
+
+The JSF staff representative on the committee is a non-voting member serving as an arbiter in the event of an appeal.
 
 You can contact [conduct@js.foundation][]. For more details please see the [Reporting Guidelines][].
 
