@@ -223,7 +223,6 @@ a.current {
 .page-parent-link {
 	@extend %page-sub-nav-link;
 	display: inline-block;
-	margin-bottom: 2rem;
 
 	&-icon {
 		display: inline-block;
