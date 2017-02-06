@@ -2,4 +2,3 @@
 title: Blog
 ---
 
-## Coming Soon
