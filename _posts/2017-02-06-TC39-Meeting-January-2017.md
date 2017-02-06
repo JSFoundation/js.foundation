@@ -32,6 +32,7 @@ TC39 members are positive about moving forward with the code of conduct, and are
 
 [You can find a full agenda of what was discussed at this meeting here.](https://github.com/tc39/agendas/blob/master/2017/01.md) I won't discuss every single line item
 but I want to highlight a few proposals that are potentially of great benefit. In particular, I want to touch upon:
+
 + Null Propagation Operator
 + RegExp Lookbehind
 + 64 Bit Integers
@@ -54,6 +55,7 @@ const firstName = (message
 ```
 
 With the null propagation operator:
+
 ```js
 const firstName = message.body?.user?.firstName || 'default';
 ```

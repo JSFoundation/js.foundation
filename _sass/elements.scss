@@ -163,6 +163,15 @@ td {
 	padding: .5rem 0;
 }
 
+code {
+	background-color: rgb(227, 246, 255);
+	white-space: nowrap;
+}
+
+pre code {
+	white-space: inherit;
+}
+
 .lower-alpha {
 	list-style-type: lower-alpha;
 }
