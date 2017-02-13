@@ -1,6 +1,6 @@
 ---
 name: "webpack"
-site: "http://webpack.github.io"
+site: "https://webpack.js.org/"
 logo: "webpack.svg"
 ---
 
