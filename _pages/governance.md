@@ -11,7 +11,7 @@ The Board of Directors (BoD) serves as the business guiding branch of governance
 {% include avatar.html src="https://secure.gravatar.com/avatar/fde2cb8448070c28cd5261a8e8b75267?size=120" name="Andy Smith" company="IBM" title="President" %}
 {% include avatar.html src="https://js.foundation/img/headshots/dwarka.jpg" name="Dwarkaprasad Dayama" company="Samsung" title="Secretary" %}
 {% include avatar.html src="https://secure.gravatar.com/avatar/a33604bcd62ccc84c79d52be7b14bbd3?size=120" name="Jory Burson" company="Bocoup" title="Treasurer" %}
-{% include avatar.html src="https://secure.gravatar.com/avatar/161a4cc619398bea1e1714036ed122cf?size=120" name="Dave Methvin" title="TAC Chair" %}
+{% include avatar.html src="https://secure.gravatar.com/avatar/161a4cc619398bea1e1714036ed122cf?size=120" name="Dave Methvin" company=" " title="TAC Chair" %}
 
 ## Staff
 
