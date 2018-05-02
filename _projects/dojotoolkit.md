@@ -1,7 +1,7 @@
 ---
-name: "Dojo Toolkit"
-site: "https://dojotoolkit.org/"
-logo: "dojoToolkitLogo.png"
+name: "Dojo"
+site: "https://dojo.io/"
+logo: "dojo.svg"
 ---
 
-The Dojo Toolkit offers rapid, modular development with great tools to test and optimize production performance, with no compile step for web and mobile web applications.
+Dojo is a progressive TypeScript framework for building modern web apps with a focus on developer ergonomics.
